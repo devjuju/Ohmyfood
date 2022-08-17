@@ -1,0 +1,46 @@
+/* boutons */
+@mixin button {
+    border: 0px solid $colour-none;
+    border-radius: 26px;
+    padding: 20px;
+    color: $colour-primary;
+    background: $colour-button;
+    font-family: $font-primary;
+    font-size: 20px;
+    box-shadow:$box-shadow ;
+    cursor: pointer;
+    &:hover{
+        background: $colour-primary;
+        color: $colour-hover;
+        border: 0px solid $colour-none;
+    }
+}
+
+
+
+
+
+/* Responsive - layout mobile 375px  */
+@media screen and (max-width: 375px){
+    /* boutons */
+@mixin button {
+    border: 0px solid $colour-none;
+    border-radius: 26px;
+    padding: 20px;
+    color: $colour-primary;
+    background: $colour-button;
+    font-family: $font-primary;
+    font-size: 16px;
+    box-shadow:$box-shadow ;
+    cursor: pointer;
+    &:hover{
+        background: $colour-primary;
+        color: $colour-hover;
+        border: 0px solid $colour-none;
+    }
+}
+
+
+
+        
+    }

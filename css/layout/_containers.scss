@@ -1,0 +1,21 @@
+section{
+
+    margin:auto;
+    padding-left: 344px;
+    padding-right: 344px;
+
+
+}
+
+
+
+/* Responsive - layout mobile 375px  */
+@media screen and (max-width: 375px){
+
+    section{
+        margin:auto;
+        padding-left: 20px;
+        padding-right: 20px;   
+    }
+
+}
