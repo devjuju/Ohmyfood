@@ -1,0 +1,30 @@
+/* navigation */
+.navigation {
+    text-align: center;
+  ul {
+    position: absolute;
+    width: 100%;
+    background-color: $colour-primary;
+    color: $colour-title;
+  }
+
+  li { display: inline-block;
+    font-family: $font-primary;
+    font-size: 20px;
+   }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+
+/* Responsive - layout mobile 375px  */
+@media screen and (max-width: 375px){
+  .navigation{
+display: none;
+  }
+  
+}

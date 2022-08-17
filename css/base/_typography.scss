@@ -1,0 +1,68 @@
+
+h1 {
+    font-family: $font-primary;
+    font-weight: $font-bold;
+    font-size: 65px;
+    color: $colour-title;
+    text-align: center;
+}
+
+h2{
+    font-family: $font-primary;
+    font-weight: $font-bold;
+    font-size: 50px;
+    color: $colour-title;
+ 
+}
+
+h3{
+    font-family: $font-primary;
+    font-weight: $font-bold;
+    font-size: 35px;
+    color: $colour-title;
+}
+
+
+
+p{
+    font-family: $font-primary;
+    font-weight: $font-regular;
+    font-size: 20px;
+    color: $colour-text;
+ 
+}
+
+
+/* Responsive - layout mobile 375px  */
+@media screen and (max-width: 375px){
+    
+h1 {
+    font-family: $font-primary;
+    font-weight: $font-bold;
+    font-size: 25px;
+    color: $colour-title;
+    text-align: center;
+}
+
+h2{
+    font-family: $font-primary;
+    font-weight: $font-bold;
+    font-size: 25px;
+    color: $colour-title;
+}
+
+h3{
+    font-family: $font-primary;
+    font-weight: $font-bold;
+    font-size: 18px;
+    color: $colour-title;
+}
+
+p{
+    font-family: $font-primary;
+    font-weight: $font-regular;
+    font-size: 17px;
+    color: $colour-text;
+}
+    
+}
