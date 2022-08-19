@@ -97,6 +97,12 @@ p {
     font-size: 18px;
     color: black;
   }
+  h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+  }
   p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -160,8 +166,8 @@ header .logo {
 /* Responsive - layout mobile 375px  */
 @media screen and (max-width: 375px) {
   header {
-    margin-top: 94px;
-    margin-bottom: 50px;
+    margin-top: 22px;
+    margin-bottom: -89px;
   }
   header .logo {
     text-align: center;
@@ -208,22 +214,26 @@ section {
 /* Responsive - layout mobile 375px  */
 @media screen and (max-width: 375px) {
   footer {
+    padding-left: 12px;
     padding-top: 28px;
+    padding-bottom: 37px;
+    background-color: #353535;
   }
   footer img {
-    width: 100px;
+    width: 125px;
     padding-left: 15px;
+    margin-bottom: 20px;
   }
-  footer .listicone {
+  footer .fa.fa-utensils {
     margin-right: 12px;
+  }
+  footer .fas.fa-hands-helping {
+    margin-right: 5px;
   }
   footer ul {
     text-decoration: none;
-    padding-left: 20px;
     width: 100%;
-    background-color: white;
     color: black;
-    margin-bottom: 100px;
   }
   footer ul li {
     display: block;
@@ -231,8 +241,19 @@ section {
     font-size: 20px;
   }
   footer ul a {
+    color: white;
+    font-size: 17px;
     padding: 6px 12px;
     text-decoration: none !important;
+  }
+  footer ul a:hover {
+    color: #9356DC;
+  }
+  footer hr {
+    display: none;
+  }
+  footer .coporight {
+    display: none;
   }
 }
 /* lieu */
