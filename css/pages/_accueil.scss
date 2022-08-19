@@ -38,6 +38,9 @@
        
       }
 
+
+     
+
  
         }
     }
@@ -50,6 +53,7 @@
     padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 64px;
 
 
     article{
@@ -67,7 +71,8 @@
             box-shadow:$box-shadow ;
             width: 335px;
             height: 252px;
-            margin-top: 10px;
+        
+           
             
             & img{
                 border-radius: 26px 26px 0px 0px;
@@ -142,21 +147,53 @@
         display: -webkit-flex;
         display: flex;
         flex-direction: column;
+        padding-left: 12px;
+        padding-right: 12px;
         article{
             -webkit-flex: 1;
-      -ms-flex: 1;
-      flex: 1;
-      display: -webkit-flex;
-      display: flex;
-      justify-content: flex-start;
+            -ms-flex: 1;
+            flex: 1;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: flex-start;
+            background-color: $colour-bottom;
+            margin-bottom: 25px;
+            padding: 21px;
+            border-radius: 17px;
+            box-shadow:$box-shadow ;
+            &--h3 i h4{
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+            }
 
-      &--p i h3{
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-       
-      }
+     .numero{
+       color: $colour-primary;
+       background-color: $colour-hover;
+       border-radius: 50%;
+       border: 1px solid #D9D9D9;
+       margin-left: -33px;
+       margin-right: 9px;
+       padding-top: 4px;
+       padding-left: 10px;
+       padding-right:9px;
+       padding-bottom: 4px;
+     }
 
+
+     .icone{
+        margin-top: 5px;
+        font-size: 18px;
+        color: $colour-text;
+        margin-left: 9px;
+        margin-right: 25px;
+     }
+
+
+     .titre-fonction{
+        margin-top: 5px;
+     }
+     
  
         }
     }
@@ -178,26 +215,31 @@
         display: flex;
     }
 
- 
-
-    .card-resto1{
+    .card{
         -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         overflow: hidden;
         border: 0px solid $colour-none;
-        border-radius: 26px;
+        border-radius: 17px;
         background: $colour-primary;
         box-shadow:$box-shadow ;
         width: 335px;
         height: 252px;
-        margin-top: 10px;
-        & .card-header1 img{
-            
-            border-radius: 26px 26px 0px 0px;
-            width: 100%;
-            height: 175px;
+        margin-bottom: 18px;
     
+
+        & .card-header{
+            overflow: hidden;
+            height: 174px;
+        }
+
+     
+        & .card-header img{
+            border-radius: 17px 17px 0px 0px;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
         }
 
         & .card-content{display: flex;
@@ -207,94 +249,6 @@
             padding: 20px;}
 
     }
-
-
-    .card-resto2{
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-        overflow: hidden;
-        border: 0px solid $colour-none;
-        border-radius: 26px;
-        background: $colour-primary;
-        box-shadow:$box-shadow ;
-        width: 335px;
-        height: 252px;
-        margin-top: 10px;
-        & .card-header2 img{
-            
-            border-radius: 26px 26px 0px 0px;
-            width: 100%;
-            height: 175px;
-    
-        }
-
-        & .card-content{display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 20px;}
-
-    }
-
-
-    .card-resto3{
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-        overflow: hidden;
-        border: 0px solid $colour-none;
-        border-radius: 26px;
-        background: $colour-primary;
-        box-shadow:$box-shadow ;
-        width: 335px;
-        height: 252px;
-        margin-top: 10px;
-        & .card-header3 img{
-            
-            border-radius: 26px 26px 0px 0px;
-            width: 100%;
-            height: 175px;
-    
-        }
-
-        & .card-content{display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 20px;}
-
-    }
-
-
-    .card-resto4{
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
-        overflow: hidden;
-        border: 0px solid $colour-none;
-        border-radius: 26px;
-        background: $colour-primary;
-        box-shadow:$box-shadow ;
-        width: 335px;
-        height: 252px;
-        margin-top: 10px;
-        & .card-header4 img{
-            
-            border-radius: 26px 26px 0px 0px;
-            width: 100%;
-            height: 175px;
-    
-        }
-
-        & .card-content{display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 20px;}
-
-    }
-
 
 }
 
