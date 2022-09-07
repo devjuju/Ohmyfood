@@ -1,0 +1,29 @@
+
+/*------------------------------------------- Sections ----------------------------------------*/
+section{
+    margin:auto;
+}
+/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+@media screen and (max-width: 425px){
+    section{
+        margin:auto;
+        padding-left: 24px;
+        padding-right: 24px;   
+    }
+}
+/*-------------------------------- Responsive - layout mobile 375px ---------------------------*/
+@media screen and (max-width: 375px){
+    section{
+        margin:auto;
+        padding-left: 20px;
+        padding-right: 20px;   
+    }
+}
+/*-------------------------------- Responsive - layout mobile 320px ---------------------------*/
+@media screen and (max-width: 320px){
+    section{
+        margin:auto;
+        padding-left: 17px;
+        padding-right: 17px;   
+    }
+}
