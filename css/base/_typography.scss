@@ -1,4 +1,4 @@
-
+/*-------------------------------- Typographies ------------------------------------------------*/
 h1 {
     font-family: $font-primary;
     font-weight: $font-bold;
@@ -6,80 +6,167 @@ h1 {
     color: $colour-title;
     text-align: center;
 }
-
 h2{
     font-family: $font-primary;
     font-weight: $font-bold;
     font-size: 50px;
     color: $colour-title;
- 
 }
-
 h3{
     font-family: $font-primary;
     font-weight: $font-bold;
-    font-size: 35px;
+    font-size: 25px;
     color: $colour-title;
 }
-
-
 h4{
     font-family: $font-primary;
     font-weight: $font-medium;
     font-size: 25px;
     color: $colour-title;
 }
-
-
-
 p{
     font-family: $font-primary;
     font-weight: $font-regular;
     font-size: 20px;
-    color: $colour-text;
- 
-}
-
-
-/* Responsive - layout mobile 375px  */
-@media screen and (max-width: 375px){
-    
-h1 {
-    font-family: $font-primary;
-    font-weight: $font-bold;
-    font-size: 25px;
-    color: $colour-title;
-    text-align: center;
-}
-
-h2{
-    font-family: $font-primary;
-    font-weight: $font-bold;
-    font-size: 25px;
-    color: $colour-title;
-    margin-bottom: 28px;
-}
-
-h3{
-    font-family: $font-primary;
-    font-weight: $font-bold;
-    font-size: 18px;
     color: $colour-title;
 }
-
-h4{
-    font-family: $font-primary;
-    font-weight: $font-medium;
-    font-size: 18px;
-    color: $colour-title;
+/*------------------------------- Responsive - layout tablette 768px ---------------------------*/
+@media screen and (max-width: 768px){
+    h1 {
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 49px;
+        color: $colour-title;
+        text-align: center;
+    }    
+    h2{
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 49px;
+        color: $colour-title;
+        margin-bottom: 28px;
+    }  
+    h3{
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 32px;
+        color: $colour-title;
+    }   
+    h4{
+        font-family: $font-primary;
+        font-weight: $font-medium;
+        font-size: 20px;
+        color: $colour-title;
+    } 
+    p{
+        font-family: $font-primary;
+        font-weight: $font-regular;
+        font-size: 25px;
+        color: $colour-title;
+    }     
 }
-
-
-p{
-    font-family: $font-primary;
-    font-weight: $font-regular;
-    font-size: 17px;
-    color: $colour-text;
+/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+@media screen and (max-width: 425px){
+    h1 {
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 27px;
+        color: $colour-title;
+        text-align: center;
+    }
+    h2{
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 27px;
+        color: $colour-title;
+        margin-bottom: 28px;
+    }
+    h3{
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 21px;
+        color: $colour-title;
+    }
+    h4{
+        font-family: $font-primary;
+        font-weight: $font-medium;
+        font-size: 18px;
+        color: $colour-title;
+    }
+    p{
+        font-family: $font-primary;
+        font-weight: $font-regular;
+        font-size: 18px;
+        color: $colour-title;
+    } 
 }
-    
+/*-------------------------------- Responsive - layout mobile 375px ---------------------------*/
+@media screen and (max-width: 375px){ 
+    h1 {
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 25px;
+        color: $colour-title;
+        text-align: center;
+    }
+    h2{
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 25px;
+        color: $colour-title;
+        margin-bottom: 28px;
+    }
+    h3{
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 18px;
+        color: $colour-title;
+    }
+    h4{
+        font-family: $font-primary;
+        font-weight: $font-medium;
+        font-size: 18px;
+        color: $colour-title;
+    }
+    p{
+        font-family: $font-primary;
+        font-weight: $font-regular;
+        font-size: 17px;
+        color: $colour-title;
+    }  
+}
+/*-------------------------------- Responsive - layout mobile 320px ---------------------------*/
+@media screen and (max-width: 320px){
+    h1 {
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 21px;
+        color: $colour-title;
+        text-align: center;
+    }
+    h2{
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 21px;
+        color: $colour-title;
+        margin-bottom: 28px;
+    }
+    h3{
+        font-family: $font-primary;
+        font-weight: $font-bold;
+        font-size: 16px;
+        color: $colour-title;
+    }
+    h4{
+        font-family: $font-primary;
+        font-weight: $font-medium;
+        font-size: 18px;
+        color: $colour-title;
+    }
+    p{
+        font-family: $font-primary;
+        font-weight: $font-regular;
+        font-size: 15px;
+        color: $colour-title;
+    } 
 }
