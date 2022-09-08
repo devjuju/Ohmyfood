@@ -2,8 +2,18 @@
 /*------------------------------------------- Sections ----------------------------------------*/
 section{
     margin:auto;
+    padding-left: 344px;
+    padding-right: 344px; 
 }
-/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+/*-------------------------------- Responsive - layout Tablette 768px ---------------------------*/
+@media screen and (max-width: 768px){
+    section{
+        margin:auto;
+        padding-left: 40px;
+        padding-right: 40px;   
+    }
+}
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px){
     section{
         margin:auto;
@@ -11,7 +21,7 @@ section{
         padding-right: 24px;   
     }
 }
-/*-------------------------------- Responsive - layout mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px){
     section{
         margin:auto;
@@ -19,7 +29,7 @@ section{
         padding-right: 20px;   
     }
 }
-/*-------------------------------- Responsive - layout mobile 320px ---------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px){
     section{
         margin:auto;

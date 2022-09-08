@@ -6,7 +6,7 @@ header{
     background-color: white;
     border-bottom: 1px solid rgba(33, 35, 38, 0);
     box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
-    article{
+    .logo-ohmyfood{
         display: -webkit-flex;
         display: flex;
         justify-content: center;
@@ -19,9 +19,10 @@ header{
         & img{
             margin-bottom: 15px;
             width: 441px;
-            margin-left: 0px;
+            margin-left: 18px;
         }
         & i{
+            color: rgb(255, 255, 255);
             white-space: nowrap; 
             width: 0; 
             overflow: hidden;
@@ -29,20 +30,19 @@ header{
         }   
     }
 }
-/*---------------------------- Responsive - layout tablette 768px -----------------------------*/
+/*---------------------------- Responsive - layout Tablette 768px -----------------------------*/
 @media screen and (max-width: 768px){
     header{
         padding-top: 43px;
-        padding-bottom: 0px;
-        margin-bottom: -34px;     
+        padding-bottom: 0px;     
         position: relative;
         background-color: white;
         border-bottom: 1px solid rgba(33, 35, 38, 0);
         box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
-        article{
+        .logo-ohmyfood{
             display: -webkit-flex;
             display: flex;
-            justify-content:space-between;
+            justify-content:flex-start;
             padding-left: 23px;
             text-align: center;
             & .logo1 .logo2 i{
@@ -52,37 +52,36 @@ header{
             }
             & .logo1{
                 margin-bottom: 17px;
-                width: 253px;
-                margin-left: 239px;
+                width: 293px;
+                margin-left: 214px;
             }
             & .logo2{
                 margin-bottom: 17px;
-                width: 253px;
-                margin-left: 180px;
+                width: 293px;
+                margin-left: 187px;
             }
             & i{
                 font-size: 25px;
-                white-space: nowrap; 
-                width: 89px; 
+                color: black;
+                width: 50px; 
                 overflow: hidden;
-                text-overflow: clip; 
+                text-overflow: clip;
+                margin-top: 11px; 
                 margin-bottom: 17px;
             }
         } 
     }
 }
-
-/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px){
     header{
-        padding-top: 22px;
-        padding-bottom: 0px;
-        margin-bottom: -34px;     
+        padding-top: 25px;  
+        padding-bottom: 0px;   
         position: relative;
         background-color: white;
         border-bottom: 1px solid rgba(33, 35, 38, 0);
         box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
-        article{
+        .logo-ohmyfood{
             display: -webkit-flex;
             display: flex;
             justify-content:flex-start;
@@ -94,41 +93,37 @@ header{
                 flex: 1;
             }
             & .logo1{
-                margin-bottom: 6px;
                 width: 183px;
                 margin-left: 120px;
+                margin-bottom: 12px;
             }
-            & .logo2{
-                margin-bottom: 6px;
+            & .logo2{     
                 width: 183px;
-                margin-left: 55px;
+                margin-left: 88px;
+                margin-bottom: 12px;
             }
-            & i{         
+            & i{
                 font-size: 20px;
-                white-space: nowrap; 
-                width: 89px; 
+                color: black;
+                width: 50px; 
                 overflow: hidden;
-                text-overflow: clip; 
-                margin-bottom: 9px;
-                :hover{
-                    color: $colour-hover;
-                }
+                text-overflow: clip;
+                margin-top: 5px; 
+                margin-bottom: 17px;
             }
         } 
     }
 }
-
-/*--------------------------------- Responsive - layout mobile 375px --------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px){
     header{
         padding-top: 22px;
-        padding-bottom: 0px;
-        margin-bottom: -34px;     
+        padding-bottom: 0px;    
         position: relative;
         background-color: white;
         border-bottom: 1px solid rgba(33, 35, 38, 0);
         box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
-        article{
+        .logo-ohmyfood{
             display: -webkit-flex;
             display: flex;
             justify-content:flex-start;
@@ -140,12 +135,12 @@ header{
                 flex: 1;
             }
             & .logo1{
-                margin-bottom: 6px;
+                margin-bottom: 10px;
                 width: 163px;
                 margin-left: 109px;
             }
             & .logo2{
-                margin-bottom: 6px;
+                margin-bottom: 10px;
                 width: 163px;
                 margin-left: 35px;
             }
@@ -163,19 +158,16 @@ header{
         } 
     }
 }
-
-
-/*---------------------------------- Responsive - layout mobile 320px -------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px){
     header{
-        padding-top: 22px;
-        padding-bottom: 0px;
-        margin-bottom: -34px;     
+        padding-top: 19px;
+        padding-bottom: 0px;     
         position: relative;
         background-color: white;
         border-bottom: 1px solid rgba(33, 35, 38, 0);
         box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
-        article{
+        .logo-ohmyfood{
             display: -webkit-flex;
             display: flex;
             justify-content:flex-start;
@@ -187,12 +179,12 @@ header{
                 flex: 1;
             }
             & .logo1{
-                margin-bottom: 6px;
+                margin-bottom: 11px;
                 width: 137px;
                 margin-left: 92px;
             }
             & .logo2{
-                margin-bottom: 6px;
+                margin-bottom:11px;
                 width: 137px;
                 margin-left: 36px;
             }

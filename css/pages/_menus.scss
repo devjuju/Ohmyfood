@@ -114,8 +114,8 @@
                 padding: 7px;
         
                 &:hover{
-                    -webkit-animation: myrotate 1.5s linear;
-                    animation: myrotate 1.5s  linear;
+                    -webkit-animation: myrotate 1s linear;
+                    animation: myrotate 1s  linear;
                 }
                 @keyframes myrotate {
                     0% {
@@ -206,7 +206,7 @@
         }
     }
 }
-/*------------------ Responsive layout - tablette 768px ------------------------------------*/
+/*------------------ Responsive layout - Tablette 768px ------------------------------------*/
 @media screen and (max-width: 768px){
     /* -------------------------- Section photo de menu ------------------------------------*/
     .photo-menu{
@@ -325,10 +325,11 @@
                     color: $colour-badge;
                     background-color: $colour-primary;
                     border-radius: 50%;
+                    margin-top: 13px;
                     padding: 7px;
                     &:hover{
-                        -webkit-animation: myrotate 1.5s linear;
-                        animation: myrotate 1.5s  linear;
+                        -webkit-animation: myrotate 1s linear;
+                        animation: myrotate 1s  linear;
                     }
                     @keyframes myrotate {
                         0% {
@@ -339,9 +340,15 @@
                         }
                     }
                 }    
+                & .icon-no-overflow{
+                    margin-top: 32px;
+                }
             }
             &:hover .card-validation{
-                padding: 39px;
+                padding-left: 39px;
+                padding-right: 39px;
+                padding-top: 37px;
+                padding-bottom: 0px;
                 width:auto;
                 background-color: $colour-badge; 
             }
@@ -385,13 +392,8 @@
                           overflow: hidden;
                           text-overflow: ellipsis;
                         }   
-                    }
+                    }     
                     & .title-no-overflow{
-                        margin-bottom: 7px;
-                        white-space: nowrap; 
-                        width: 100%; 
-                    }
-                    & .title-no-overflow2{
                         margin-bottom: 7px;
                         padding-right: 86px;    
                         &:hover{
@@ -454,7 +456,7 @@
         }
     }
 }
-/*------------------------------ Responsive layout - mobile 425px -----------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px){
     /* ----------------------- Section photo du menu ------------------------------------------*/
     .photo-menu{
@@ -575,10 +577,11 @@
                     color: $colour-badge;
                     background-color: $colour-primary;
                     border-radius: 50%;
+                    margin-top: 8px;
                     padding: 7px;
                     &:hover{
-                        -webkit-animation: myrotate 1.5s linear;
-                        animation: myrotate 1.5s  linear;
+                        -webkit-animation: myrotate 1s linear;
+                        animation: myrotate 1s  linear;
                     }
                     @keyframes myrotate {
                         0% {
@@ -588,12 +591,16 @@
                             transform: rotate(90deg);
                         }
                     }
-                }    
+                }  
+                & .icon-no-overflow{
+                    margin-top: 18px;
+                }  
             }
             &:hover .card-validation{
                 padding-left: 21px;
                 padding-right: 21px;
-                padding-top: 29px;
+                padding-top: 21px;
+                padding-bottom: 0px;
                 width:auto;
                 background-color: $colour-badge; 
             }
@@ -637,13 +644,8 @@
                             overflow: hidden;
                             text-overflow: ellipsis;
                         }   
-                    }
+                    } 
                     & .title-no-overflow{
-                        margin-bottom: 7px;
-                        white-space: nowrap; 
-                        width: 100%; 
-                    }
-                    & .title-no-overflow2{
                         margin-bottom: 7px;
                         padding-right: 42px; 
                         &:hover{
@@ -706,8 +708,7 @@
         }
     }
 }
-
-/*------------------------------ Responsive layout - mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px){
     /* ---------------------------------- Section photo du menu ------------------------------*/
     .photo-menu{
@@ -822,13 +823,14 @@
                 border-radius: 0px 17px 17px 0px;
                 & i {
                     cursor:pointer;
+                    font-size: 16px;
                     color: $colour-badge;
                     background-color: $colour-primary;
                     border-radius: 50%;
-                    padding: 7px;
+                    padding: 6px;
                     &:hover{
-                        -webkit-animation: myrotate 1.5s linear;
-                        animation: myrotate 1.5s  linear;
+                        -webkit-animation: myrotate 1s linear;
+                        animation: myrotate 1s  linear;
                     }
                     @keyframes myrotate {
                         0% {
@@ -838,10 +840,18 @@
                             transform: rotate(90deg);
                         }
                     }
-                }    
+                } 
+                & .icon-no-overflow{
+                    font-size: 16px;
+                    padding: 6px;
+                    margin-top: 21px;
+                }   
             }
             &:hover .card-validation{
-                padding: 25px;
+                padding-left: 19px;
+                padding-right: 19px;
+                padding-top: 20px;
+                padding-bottom: 0px;
                 width:auto;
                 background-color: $colour-badge; 
             }
@@ -887,11 +897,6 @@
                         }   
                     }
                     & .title-no-overflow{
-                        margin-bottom: 7px;
-                        white-space: nowrap; 
-                        width: 100%; 
-                    }
-                    & .title-no-overflow2{
                         margin-bottom: 7px;
                         padding-right: 42px; 
                         &:hover{
@@ -954,8 +959,7 @@
         }
     }
 }
-
-/*----------------------------- Responsive layout - mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px){
     /* ---------------------------------- Section photo du menu ------------------------------*/
     .photo-menu{
@@ -1069,15 +1073,15 @@
                 background-color: $colour-badge;
                 border-radius: 0px 17px 17px 0px;
                 & i {
-                    font-size: 10px;
+                    font-size: 14px;
                     cursor:pointer;
                     color: $colour-badge;
                     background-color: $colour-primary;
                     border-radius: 50%;
                     padding: 7px;
                     &:hover{
-                        -webkit-animation: myrotate 1.5s linear;
-                        animation: myrotate 1.5s  linear;
+                        -webkit-animation: myrotate 1s linear;
+                        animation: myrotate 1s  linear;
                     }
                     @keyframes myrotate {
                         0% {
@@ -1087,6 +1091,10 @@
                             transform: rotate(90deg);
                         }
                     }
+                } 
+                & .icon-no-overflow{
+                    font-size: 14px;
+                    margin-top: 13px;
                 }    
             }
             &:hover .card-validation{
@@ -1137,11 +1145,6 @@
                         }   
                     }
                     & .title-no-overflow{
-                        margin-bottom: 7px;
-                        white-space: nowrap; 
-                        width: 100%; 
-                    }
-                    & .title-no-overflow2{
                         margin-bottom: 7px;
                         padding-right: 42px;    
                         &:hover{

@@ -1,7 +1,7 @@
 @charset "UTF-8";
-/* Couleurs globales */
-/* Ombres */
-/* Polices principales */
+/*----------------------------------------- Couleurs globales -----------------------------------*/
+/*----------------------------------------- Ombres ------------------------------------------------*/
+/*----------------------------------------- Polices princiaples -----------------------------------*/
 /*---------------------------------- mixins button -----------------------------------------*/ /*----------------------------------- sélecteur universel du site -----------------------------*/
 * {
   padding: 0px;
@@ -26,7 +26,7 @@ a:hover {
   color: #9356DC;
 }
 
-/*-------------------------------- Responsive - layout tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
 @media screen and (max-width: 768px) {
   /*----------------------------------- Sélecteur universel du site ---------------------------*/
   * {
@@ -50,7 +50,7 @@ a:hover {
     color: #9356DC;
   }
 }
-/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px) {
   /*----------------------------------- Sélecteur universel du site ---------------------------*/
   * {
@@ -74,7 +74,7 @@ a:hover {
     color: #9356DC;
   }
 }
-/*-------------------------------- Responsive - layout mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px) {
   /*----------------------------------- Sélecteur universel du site ---------------------------*/
   * {
@@ -98,7 +98,7 @@ a:hover {
     color: #9356DC;
   }
 }
-/*-------------------------------- Responsive - layout mobile 320px ---------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px) {
   /*----------------------------------- Sélecteur universel du site ---------------------------*/
   * {
@@ -159,7 +159,7 @@ p {
   color: black;
 }
 
-/*------------------------------- Responsive - layout tablette 768px ---------------------------*/
+/*------------------------------- Responsive - layout Tablette 768px ---------------------------*/
 @media screen and (max-width: 768px) {
   h1 {
     font-family: "Roboto", sans-serif;
@@ -194,7 +194,7 @@ p {
     color: black;
   }
 }
-/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px) {
   h1 {
     font-family: "Roboto", sans-serif;
@@ -229,7 +229,7 @@ p {
     color: black;
   }
 }
-/*-------------------------------- Responsive - layout mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px) {
   h1 {
     font-family: "Roboto", sans-serif;
@@ -264,7 +264,7 @@ p {
     color: black;
   }
 }
-/*-------------------------------- Responsive - layout mobile 320px ---------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px) {
   h1 {
     font-family: "Roboto", sans-serif;
@@ -317,52 +317,53 @@ button:hover {
 }
 
 /*----------------------------------- navigation ----------------------------------------------*/
-.navigation {
+nav {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-.navigation ul {
+nav ul {
   position: absolute;
   width: 100%;
   background-color: white;
   color: black;
 }
-.navigation li {
+nav ul li {
   display: inline-block;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
-.navigation a {
+nav ul li a {
   display: block;
   padding: 6px 12px;
+  color: black;
   text-decoration: none;
 }
-.navigation a:hover {
+nav ul li a:hover {
   color: #9356DC;
 }
 
-/*----------------------------------- Responsive - layout tablette 768px ----------------------*/
+/*----------------------------------- Responsive - layout Tablette 768px ----------------------*/
 @media screen and (max-width: 768px) {
-  .navigation {
+  nav {
     display: none;
   }
 }
-/*------------------------------------ Responsive - layout mobile 425px ----------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px) {
-  .navigation {
+  nav {
     display: none;
   }
 }
-/*------------------------------------ Responsive - layout mobile 375px ----------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px) {
-  .navigation {
+  nav {
     display: none;
   }
 }
-/*------------------------------------ Responsive - layout mobile 320px ----------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px) {
-  .navigation {
+  nav {
     display: none;
   }
 }
@@ -375,138 +376,135 @@ header {
   border-bottom: 1px solid rgba(33, 35, 38, 0);
   box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
 }
-header article {
+header .logo-ohmyfood {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-header article img i {
+header .logo-ohmyfood img i {
   flex: 1;
 }
-header article img {
+header .logo-ohmyfood img {
   margin-bottom: 15px;
   width: 441px;
-  margin-left: 0px;
+  margin-left: 18px;
 }
-header article i {
+header .logo-ohmyfood i {
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   width: 0;
   overflow: hidden;
   text-overflow: clip;
 }
 
-/*---------------------------- Responsive - layout tablette 768px -----------------------------*/
+/*---------------------------- Responsive - layout Tablette 768px -----------------------------*/
 @media screen and (max-width: 768px) {
   header {
     padding-top: 43px;
     padding-bottom: 0px;
-    margin-bottom: -34px;
     position: relative;
     background-color: white;
     border-bottom: 1px solid rgba(33, 35, 38, 0);
     box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
   }
-  header article {
+  header .logo-ohmyfood {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-left: 23px;
     text-align: center;
   }
-  header article .logo1 .logo2 i {
+  header .logo-ohmyfood .logo1 .logo2 i {
     flex: 1;
   }
-  header article .logo1 {
+  header .logo-ohmyfood .logo1 {
     margin-bottom: 17px;
-    width: 253px;
-    margin-left: 239px;
+    width: 293px;
+    margin-left: 214px;
   }
-  header article .logo2 {
+  header .logo-ohmyfood .logo2 {
     margin-bottom: 17px;
-    width: 253px;
-    margin-left: 180px;
+    width: 293px;
+    margin-left: 187px;
   }
-  header article i {
+  header .logo-ohmyfood i {
     font-size: 25px;
-    white-space: nowrap;
-    width: 89px;
+    color: black;
+    width: 50px;
     overflow: hidden;
     text-overflow: clip;
+    margin-top: 11px;
     margin-bottom: 17px;
   }
 }
-/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px) {
   header {
-    padding-top: 22px;
+    padding-top: 25px;
     padding-bottom: 0px;
-    margin-bottom: -34px;
     position: relative;
     background-color: white;
     border-bottom: 1px solid rgba(33, 35, 38, 0);
     box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
   }
-  header article {
+  header .logo-ohmyfood {
     display: flex;
     justify-content: flex-start;
     padding-left: 0px;
     text-align: center;
   }
-  header article .logo1 .logo2 i {
+  header .logo-ohmyfood .logo1 .logo2 i {
     flex: 1;
   }
-  header article .logo1 {
-    margin-bottom: 6px;
+  header .logo-ohmyfood .logo1 {
     width: 183px;
     margin-left: 120px;
+    margin-bottom: 12px;
   }
-  header article .logo2 {
-    margin-bottom: 6px;
+  header .logo-ohmyfood .logo2 {
     width: 183px;
-    margin-left: 55px;
+    margin-left: 88px;
+    margin-bottom: 12px;
   }
-  header article i {
+  header .logo-ohmyfood i {
     font-size: 20px;
-    white-space: nowrap;
-    width: 89px;
+    color: black;
+    width: 50px;
     overflow: hidden;
     text-overflow: clip;
-    margin-bottom: 9px;
-  }
-  header article i :hover {
-    color: #9356DC;
+    margin-top: 5px;
+    margin-bottom: 17px;
   }
 }
-/*--------------------------------- Responsive - layout mobile 375px --------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px) {
   header {
     padding-top: 22px;
     padding-bottom: 0px;
-    margin-bottom: -34px;
     position: relative;
     background-color: white;
     border-bottom: 1px solid rgba(33, 35, 38, 0);
     box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
   }
-  header article {
+  header .logo-ohmyfood {
     display: flex;
     justify-content: flex-start;
     padding-left: 0px;
     text-align: center;
   }
-  header article .logo1 .logo2 i {
+  header .logo-ohmyfood .logo1 .logo2 i {
     flex: 1;
   }
-  header article .logo1 {
-    margin-bottom: 6px;
+  header .logo-ohmyfood .logo1 {
+    margin-bottom: 10px;
     width: 163px;
     margin-left: 109px;
   }
-  header article .logo2 {
-    margin-bottom: 6px;
+  header .logo-ohmyfood .logo2 {
+    margin-bottom: 10px;
     width: 163px;
     margin-left: 35px;
   }
-  header article i {
+  header .logo-ohmyfood i {
     font-size: 18px;
     white-space: nowrap;
     width: 89px;
@@ -514,41 +512,40 @@ header article i {
     text-overflow: clip;
     margin-bottom: 9px;
   }
-  header article i :hover {
+  header .logo-ohmyfood i :hover {
     color: #9356DC;
   }
 }
-/*---------------------------------- Responsive - layout mobile 320px -------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px) {
   header {
-    padding-top: 22px;
+    padding-top: 19px;
     padding-bottom: 0px;
-    margin-bottom: -34px;
     position: relative;
     background-color: white;
     border-bottom: 1px solid rgba(33, 35, 38, 0);
     box-shadow: 0px 10px 10px 0px rgba(33, 35, 38, 0.1);
   }
-  header article {
+  header .logo-ohmyfood {
     display: flex;
     justify-content: flex-start;
     padding-left: 0px;
     text-align: center;
   }
-  header article .logo1 .logo2 i {
+  header .logo-ohmyfood .logo1 .logo2 i {
     flex: 1;
   }
-  header article .logo1 {
-    margin-bottom: 6px;
+  header .logo-ohmyfood .logo1 {
+    margin-bottom: 11px;
     width: 137px;
     margin-left: 92px;
   }
-  header article .logo2 {
-    margin-bottom: 6px;
+  header .logo-ohmyfood .logo2 {
+    margin-bottom: 11px;
     width: 137px;
     margin-left: 36px;
   }
-  header article i {
+  header .logo-ohmyfood i {
     font-size: 16px;
     white-space: nowrap;
     width: 80px;
@@ -556,16 +553,26 @@ header article i {
     text-overflow: clip;
     margin-bottom: 8px;
   }
-  header article i :hover {
+  header .logo-ohmyfood i :hover {
     color: #9356DC;
   }
 }
 /*------------------------------------------- Sections ----------------------------------------*/
 section {
   margin: auto;
+  padding-left: 344px;
+  padding-right: 344px;
 }
 
-/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+/*-------------------------------- Responsive - layout Tablette 768px ---------------------------*/
+@media screen and (max-width: 768px) {
+  section {
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px) {
   section {
     margin: auto;
@@ -573,7 +580,7 @@ section {
     padding-right: 24px;
   }
 }
-/*-------------------------------- Responsive - layout mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px) {
   section {
     margin: auto;
@@ -581,7 +588,7 @@ section {
     padding-right: 20px;
   }
 }
-/*-------------------------------- Responsive - layout mobile 320px ---------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px) {
   section {
     margin: auto;
@@ -637,7 +644,7 @@ footer p {
   font-size: 20px;
 }
 
-/*-------------------------------- Responsive - layout tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
 @media screen and (max-width: 768px) {
   footer {
     background-color: #353535;
@@ -689,7 +696,7 @@ footer p {
     display: none;
   }
 }
-/*--------------------------------- Responsive - layout mobile 425px --------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px) {
   footer {
     background-color: #353535;
@@ -740,7 +747,7 @@ footer p {
     display: none;
   }
 }
-/*--------------------------------- Responsive - layout mobile 375px --------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px) {
   footer {
     background-color: #353535;
@@ -791,7 +798,7 @@ footer p {
     display: none;
   }
 }
-/*--------------------------------- Responsive - layout mobile 320px --------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px) {
   footer {
     background-color: #353535;
@@ -858,8 +865,6 @@ footer p {
 
 /* --------------------------------- Section du Bandeau ----------------------------------------*/
 .bandeau {
-  padding-left: 597px;
-  padding-right: 597px;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #F6F6F6;
@@ -872,9 +877,15 @@ footer p {
   flex: 1;
 }
 .bandeau h1 {
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 261px;
+  padding-left: 261px;
   margin-bottom: 26px;
+}
+.bandeau h2 {
+  padding-right: 84px;
+  padding-left: 84px;
+  margin-bottom: 43px;
+  font-weight: 400;
 }
 .bandeau h3 {
   font-weight: 400;
@@ -891,8 +902,6 @@ footer p {
 
 /* ------------------------------ Section du fonctionnement------------------------------------*/
 .fonctionnement {
-  padding-left: 344px;
-  padding-right: 344px;
   padding-top: 100px;
   padding-bottom: 100px;
   margin-top: 53px;
@@ -947,8 +956,6 @@ footer p {
 /*------------------------------- Section des restaurants -----------------------------------*/
 .restaurants {
   background-color: #F6F6F6;
-  padding-left: 344px;
-  padding-right: 344px;
   padding-top: 100px;
   padding-bottom: 200px;
 }
@@ -1022,11 +1029,11 @@ footer p {
   color: transparent;
 }
 
-/*------------------------- Responsive layout - tablette 768px --------------------------------*/
+/*------------------------- Responsive layout - Tablette 768px --------------------------------*/
 @media screen and (max-width: 768px) {
   /*---------------------------------- Section du lieu --------------------------------------*/
   .lieu {
-    padding-top: 66px;
+    padding-top: 33px;
     padding-bottom: 33px;
     background-color: #EAEAEA;
     text-align: center;
@@ -1037,8 +1044,6 @@ footer p {
   }
   /*------------------------------ Section du bandeau--------------------------------------- */
   .bandeau {
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 88px;
     padding-bottom: 117px;
     background-color: #F6F6F6;
@@ -1060,6 +1065,13 @@ footer p {
     margin-bottom: 40px;
     font-size: 36px;
   }
+  .bandeau h2 {
+    padding-right: 17px;
+    padding-left: 17px;
+    margin-bottom: 74px;
+    font-size: 36px;
+    font-weight: 400;
+  }
   .bandeau div {
     text-align: center;
   }
@@ -1071,8 +1083,6 @@ footer p {
   }
   /*--------------------------- Section du fonctionnement ------------------------------------ */
   .fonctionnement {
-    padding-left: 40px;
-    padding-right: 40px;
     padding-top: 97px;
     padding-bottom: 139px;
     margin-top: 0px;
@@ -1138,8 +1148,6 @@ footer p {
   /*------------------------------ Section des restaurants ---------------------------------*/
   .restaurants {
     background-color: #F6F6F6;
-    padding-left: 40px;
-    padding-right: 40px;
     padding-top: 109px;
     padding-bottom: 139px;
   }
@@ -1222,7 +1230,7 @@ footer p {
 @media screen and (max-width: 425px) {
   /*---------------------------------- Section du lieu --------------------------------------*/
   .lieu {
-    padding-top: 52px;
+    padding-top: 15px;
     padding-bottom: 15px;
     background-color: #EAEAEA;
     text-align: center;
@@ -1233,8 +1241,6 @@ footer p {
   }
   /*------------------------------ Section du bandeau--------------------------------------- */
   .bandeau {
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 49px;
     padding-bottom: 66px;
     background-color: #F6F6F6;
@@ -1249,6 +1255,13 @@ footer p {
     padding-right: 35px;
     padding-left: 35px;
     margin-bottom: 24px;
+  }
+  .bandeau h2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    font-weight: 400;
   }
   .bandeau h3 {
     font-weight: 400;
@@ -1267,8 +1280,6 @@ footer p {
   }
   /*--------------------------- Section du fonctionnement ---------------------------------- */
   .fonctionnement {
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 60px;
     padding-bottom: 78px;
     margin-top: 0px;
@@ -1336,8 +1347,6 @@ footer p {
   /*------------------------------ Section des restaurants ---------------------------------*/
   .restaurants {
     background-color: #F6F6F6;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -1426,7 +1435,7 @@ footer p {
 @media screen and (max-width: 375px) {
   /*---------------------------------- Section du lieu --------------------------------------*/
   .lieu {
-    padding-top: 52px;
+    padding-top: 15px;
     padding-bottom: 15px;
     background-color: #EAEAEA;
     text-align: center;
@@ -1437,10 +1446,6 @@ footer p {
   }
   /*------------------------------ Section du bandeau ---------------------------------------*/
   .bandeau {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
@@ -1452,7 +1457,14 @@ footer p {
   .bandeau h1 {
     padding-right: 35px;
     padding-left: 35px;
-    margin-bottom: 26px;
+    margin-bottom: 22px;
+  }
+  .bandeau h2 {
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-bottom: 31px;
+    font-size: 18px;
+    font-weight: 400;
   }
   .bandeau h3 {
     font-weight: 400;
@@ -1471,8 +1483,6 @@ footer p {
   }
   /*--------------------------- Section du fonctionnement --------------------------------- */
   .fonctionnement {
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 53px;
     padding-bottom: 69px;
     margin-top: 0px;
@@ -1537,8 +1547,6 @@ footer p {
   /*------------------------------ Section des restaurants ------------------------------------*/
   .restaurants {
     background-color: #F6F6F6;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 59px;
     padding-bottom: 64px;
   }
@@ -1629,8 +1637,6 @@ footer p {
 @media screen and (max-width: 320px) {
   /*---------------------------------- Section du lieu --------------------------------------*/
   .lieu {
-    padding-top: 52px;
-    padding-bottom: 15px;
     background-color: #EAEAEA;
     text-align: center;
   }
@@ -1640,8 +1646,6 @@ footer p {
   }
   /*------------------------------ Section du bandeau -------------------------------------- */
   .bandeau {
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 38px;
     padding-bottom: 48px;
     background-color: #F6F6F6;
@@ -1656,6 +1660,13 @@ footer p {
     padding-right: 35px;
     padding-left: 35px;
     margin-bottom: 20px;
+  }
+  .bandeau h2 {
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 28px;
+    font-size: 15px;
+    font-weight: 400;
   }
   .bandeau h3 {
     font-weight: 400;
@@ -1674,8 +1685,6 @@ footer p {
   }
   /*--------------------------- Section du fonctionnement --------------------------------- */
   .fonctionnement {
-    padding-left: 17px;
-    padding-right: 17px;
     padding-top: 45px;
     padding-bottom: 59px;
     margin-top: 0px;
@@ -1745,8 +1754,6 @@ footer p {
   /*------------------------------ Section des restaurants ---------------------------------*/
   .restaurants {
     background-color: #F6F6F6;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 50px;
     padding-bottom: 55px;
   }
@@ -1959,8 +1966,8 @@ footer p {
   padding: 7px;
 }
 .menus .card .card-validation i:hover {
-  -webkit-animation: myrotate 1.5s linear;
-  animation: myrotate 1.5s linear;
+  -webkit-animation: myrotate 1s linear;
+  animation: myrotate 1s linear;
 }
 @-webkit-keyframes myrotate {
   0% {
@@ -2046,7 +2053,7 @@ footer p {
   margin-left: 16px;
 }
 
-/*------------------ Responsive layout - tablette 768px ------------------------------------*/
+/*------------------ Responsive layout - Tablette 768px ------------------------------------*/
 @media screen and (max-width: 768px) {
   /* -------------------------- Section photo de menu ------------------------------------*/
   .photo-menu {
@@ -2175,11 +2182,12 @@ footer p {
     color: #99E2D0;
     background-color: white;
     border-radius: 50%;
+    margin-top: 13px;
     padding: 7px;
   }
   .menus .card .card-validation i:hover {
-    -webkit-animation: myrotate 1.5s linear;
-    animation: myrotate 1.5s linear;
+    -webkit-animation: myrotate 1s linear;
+    animation: myrotate 1s linear;
   }
   @-webkit-keyframes myrotate {
     0% {
@@ -2197,8 +2205,14 @@ footer p {
       transform: rotate(90deg);
     }
   }
+  .menus .card .card-validation .icon-no-overflow {
+    margin-top: 32px;
+  }
   .menus .card:hover .card-validation {
-    padding: 39px;
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-top: 37px;
+    padding-bottom: 0px;
     width: auto;
     background-color: #99E2D0;
   }
@@ -2241,14 +2255,9 @@ footer p {
   }
   .menus .card .card-content .card-title .title-no-overflow {
     margin-bottom: 7px;
-    white-space: nowrap;
-    width: 100%;
-  }
-  .menus .card .card-content .card-title .title-no-overflow2 {
-    margin-bottom: 7px;
     padding-right: 86px;
   }
-  .menus .card .card-content .card-title .title-no-overflow2:hover {
+  .menus .card .card-content .card-title .title-no-overflow:hover {
     margin-bottom: 7px;
     padding-right: 86px;
     white-space: nowrap;
@@ -2300,7 +2309,7 @@ footer p {
     margin-left: 16px;
   }
 }
-/*------------------------------ Responsive layout - mobile 425px -----------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px) {
   /* ----------------------- Section photo du menu ------------------------------------------*/
   .photo-menu {
@@ -2431,11 +2440,12 @@ footer p {
     color: #99E2D0;
     background-color: white;
     border-radius: 50%;
+    margin-top: 8px;
     padding: 7px;
   }
   .menus .card .card-validation i:hover {
-    -webkit-animation: myrotate 1.5s linear;
-    animation: myrotate 1.5s linear;
+    -webkit-animation: myrotate 1s linear;
+    animation: myrotate 1s linear;
   }
   @-webkit-keyframes myrotate {
     0% {
@@ -2453,10 +2463,14 @@ footer p {
       transform: rotate(90deg);
     }
   }
+  .menus .card .card-validation .icon-no-overflow {
+    margin-top: 18px;
+  }
   .menus .card:hover .card-validation {
     padding-left: 21px;
     padding-right: 21px;
-    padding-top: 29px;
+    padding-top: 21px;
+    padding-bottom: 0px;
     width: auto;
     background-color: #99E2D0;
   }
@@ -2499,14 +2513,9 @@ footer p {
   }
   .menus .card .card-content .card-title .title-no-overflow {
     margin-bottom: 7px;
-    white-space: nowrap;
-    width: 100%;
-  }
-  .menus .card .card-content .card-title .title-no-overflow2 {
-    margin-bottom: 7px;
     padding-right: 42px;
   }
-  .menus .card .card-content .card-title .title-no-overflow2:hover {
+  .menus .card .card-content .card-title .title-no-overflow:hover {
     margin-bottom: 7px;
     padding-right: 52px;
     white-space: nowrap;
@@ -2558,7 +2567,7 @@ footer p {
     margin-left: 16px;
   }
 }
-/*------------------------------ Responsive layout - mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px) {
   /* ---------------------------------- Section photo du menu ------------------------------*/
   .photo-menu {
@@ -2683,14 +2692,15 @@ footer p {
   }
   .menus .card .card-validation i {
     cursor: pointer;
+    font-size: 16px;
     color: #99E2D0;
     background-color: white;
     border-radius: 50%;
-    padding: 7px;
+    padding: 6px;
   }
   .menus .card .card-validation i:hover {
-    -webkit-animation: myrotate 1.5s linear;
-    animation: myrotate 1.5s linear;
+    -webkit-animation: myrotate 1s linear;
+    animation: myrotate 1s linear;
   }
   @-webkit-keyframes myrotate {
     0% {
@@ -2708,8 +2718,16 @@ footer p {
       transform: rotate(90deg);
     }
   }
+  .menus .card .card-validation .icon-no-overflow {
+    font-size: 16px;
+    padding: 6px;
+    margin-top: 21px;
+  }
   .menus .card:hover .card-validation {
-    padding: 25px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     width: auto;
     background-color: #99E2D0;
   }
@@ -2752,14 +2770,9 @@ footer p {
   }
   .menus .card .card-content .card-title .title-no-overflow {
     margin-bottom: 7px;
-    white-space: nowrap;
-    width: 100%;
-  }
-  .menus .card .card-content .card-title .title-no-overflow2 {
-    margin-bottom: 7px;
     padding-right: 42px;
   }
-  .menus .card .card-content .card-title .title-no-overflow2:hover {
+  .menus .card .card-content .card-title .title-no-overflow:hover {
     margin-bottom: 7px;
     padding-right: 52px;
     white-space: nowrap;
@@ -2811,7 +2824,7 @@ footer p {
     margin-left: 16px;
   }
 }
-/*----------------------------- Responsive layout - mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px) {
   /* ---------------------------------- Section photo du menu ------------------------------*/
   .photo-menu {
@@ -2935,7 +2948,7 @@ footer p {
     border-radius: 0px 17px 17px 0px;
   }
   .menus .card .card-validation i {
-    font-size: 10px;
+    font-size: 14px;
     cursor: pointer;
     color: #99E2D0;
     background-color: white;
@@ -2943,8 +2956,8 @@ footer p {
     padding: 7px;
   }
   .menus .card .card-validation i:hover {
-    -webkit-animation: myrotate 1.5s linear;
-    animation: myrotate 1.5s linear;
+    -webkit-animation: myrotate 1s linear;
+    animation: myrotate 1s linear;
   }
   @-webkit-keyframes myrotate {
     0% {
@@ -2961,6 +2974,10 @@ footer p {
     100% {
       transform: rotate(90deg);
     }
+  }
+  .menus .card .card-validation .icon-no-overflow {
+    font-size: 14px;
+    margin-top: 13px;
   }
   .menus .card:hover .card-validation {
     padding-right: 16px;
@@ -3007,14 +3024,9 @@ footer p {
   }
   .menus .card .card-content .card-title .title-no-overflow {
     margin-bottom: 7px;
-    white-space: nowrap;
-    width: 100%;
-  }
-  .menus .card .card-content .card-title .title-no-overflow2 {
-    margin-bottom: 7px;
     padding-right: 42px;
   }
-  .menus .card .card-content .card-title .title-no-overflow2:hover {
+  .menus .card .card-content .card-title .title-no-overflow:hover {
     margin-bottom: 7px;
     padding-right: 52px;
     white-space: nowrap;

@@ -1,5 +1,5 @@
 /*----------------------------------- navigation ----------------------------------------------*/
-.navigation {
+nav {
   text-align: center;
   display: -webkit-flex;
   display: flex;
@@ -9,44 +9,43 @@
     width: 100%;
     background-color: $colour-primary;
     color: $colour-title;
-  }
-  li { 
-    display: inline-block;
-    font-family: $font-primary;
-    font-size: 20px;
-  }
-  a {
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-    &:hover{
-      color: $colour-hover;
-
+    li { 
+      display: inline-block;
+      font-family: $font-primary;
+      font-size: 20px;
+      & a {
+        display: block;
+        padding: 6px 12px;
+        color: $colour-title;
+        text-decoration: none;
+        &:hover{
+          color: $colour-hover;
+        }
+      }
     }
   }
 }
-/*----------------------------------- Responsive - layout tablette 768px ----------------------*/
+/*----------------------------------- Responsive - layout Tablette 768px ----------------------*/
 @media screen and (max-width: 768px){
-  .navigation{
+  nav{
     display: none;
   }
 }
-/*------------------------------------ Responsive - layout mobile 425px ----------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px){
-  .navigation{
+  nav{
     display: none;
   }
 }
-
-/*------------------------------------ Responsive - layout mobile 375px ----------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px){
-  .navigation{
+  nav{
     display: none;
   }
 }
-/*------------------------------------ Responsive - layout mobile 320px ----------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px){
-  .navigation{
+  nav{
     display: none;
   }
 }
