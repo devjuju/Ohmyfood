@@ -19,7 +19,7 @@ a{
     color: $colour-hover;
   }
 }
-/*-------------------------------- Responsive - layout tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
 @media screen and (max-width: 768px){
   /*----------------------------------- Sélecteur universel du site ---------------------------*/
   * {
@@ -43,7 +43,7 @@ a{
     }
   }
 }
-/*-------------------------------- Responsive - layout mobile 425px ---------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px){
   /*----------------------------------- Sélecteur universel du site ---------------------------*/
   * {
@@ -67,7 +67,7 @@ a{
     }
   }
 }
-/*-------------------------------- Responsive - layout mobile 375px ---------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px){
   /*----------------------------------- Sélecteur universel du site ---------------------------*/
   * {
@@ -92,7 +92,7 @@ a{
   }
   
 }
-/*-------------------------------- Responsive - layout mobile 320px ---------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px){
   /*----------------------------------- Sélecteur universel du site ---------------------------*/
   * {

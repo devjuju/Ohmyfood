@@ -46,7 +46,7 @@ footer{
     font-size: 20px;
   }
 }
-/*-------------------------------- Responsive - layout tablette 768px --------------------------*/
+/*-------------------------------- Responsive - layout Tablette 768px --------------------------*/
 @media screen and (max-width: 768px){
   footer{
     background-color: $colour-footer;
@@ -100,7 +100,7 @@ footer{
     }
   }
 }
-/*--------------------------------- Responsive - layout mobile 425px --------------------------*/
+/*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
 @media screen and (max-width: 425px){
   footer{
     background-color: $colour-footer;
@@ -152,7 +152,7 @@ footer{
     }
   }
 }
-/*--------------------------------- Responsive - layout mobile 375px --------------------------*/
+/*------------------------ Responsive layout - Mobile M - 375px -----------------------------*/
 @media screen and (max-width: 375px){
   footer{
     background-color: $colour-footer;
@@ -204,7 +204,7 @@ footer{
     }
   }
 }
-/*--------------------------------- Responsive - layout mobile 320px --------------------------*/
+/*------------------------ Responsive layout - Mobile S - 320px -----------------------------*/
 @media screen and (max-width: 320px){
   footer{
     background-color: $colour-footer;
