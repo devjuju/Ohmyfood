@@ -125,16 +125,16 @@
             border-radius: 26px;
             background: $colour-primary;
             box-shadow:$box-shadow ;
-            width: 606px;
+            width: 100%;
             height: 211px;
             margin-right: 34px;
             display: -webkit-flex;
             display: flex;
             & .card-header{
                 overflow: hidden;
-                width: 309px;
+                width: 268px;
                 height: 211px;
-                margin-right: 45px;
+                margin-right: 40px;
                 & .badge {
                     position: absolute;
                     font-family: $font-primary;
@@ -173,7 +173,7 @@
                         float: right;
                         -webkit-text-stroke: 2px $colour-title;
                         color: $colour-primary;
-                        &:hover{
+                        &:hover{ 
                             font-size: 30px;
                             -webkit-text-stroke: 0px $colour-primary;
                             background: $colour-accent; /* fallback for old browsers */
@@ -182,7 +182,19 @@
                             -webkit-background-clip: text;
                             background-clip: text;
                             color: transparent;
-                        }          
+                            animation: fadein 3s;
+                            -moz-animation: fadein 3s; /* Firefox */
+                            -webkit-animation: fadein 3s; /* Safari et Chrome */
+                            -o-animation: fadein 3s; /* Opera */
+                            @keyframes fadein {
+                                from {
+                                    opacity:0.5;
+                                }
+                                to {
+                                    opacity:1;
+                                }
+                            }
+                        }                              
                     }
                 }
             }
@@ -393,6 +405,18 @@
                                 -webkit-background-clip: text;
                                 background-clip: text;
                                 color: transparent;
+                                animation: fadein 3s;
+                                -moz-animation: fadein 3s; /* Firefox */
+                                -webkit-animation: fadein 3s; /* Safari et Chrome */
+                                -o-animation: fadein 3s; /* Opera */
+                                @keyframes fadein {
+                                    from {
+                                        opacity:0.5;
+                                    }
+                                    to {
+                                        opacity:1;
+                                    }
+                                }
                             }           
                         }
                     }
@@ -618,6 +642,18 @@
                                 -webkit-background-clip: text;
                                 background-clip: text;
                                 color: transparent;
+                                animation: fadein 3s;
+                                -moz-animation: fadein 3s; /* Firefox */
+                                -webkit-animation: fadein 3s; /* Safari et Chrome */
+                                -o-animation: fadein 3s; /* Opera */
+                                @keyframes fadein {
+                                    from {
+                                        opacity:0.5;
+                                    }
+                                    to {
+                                        opacity:1;
+                                    }
+                                }
                             }           
                         }
                     }
@@ -840,6 +876,18 @@
                                 -webkit-background-clip: text;
                                 background-clip: text;
                                 color: transparent;
+                                animation: fadein 3s;
+                                -moz-animation: fadein 3s; /* Firefox */
+                                -webkit-animation: fadein 3s; /* Safari et Chrome */
+                                -o-animation: fadein 3s; /* Opera */
+                                @keyframes fadein {
+                                    from {
+                                        opacity:0.5;
+                                    }
+                                    to {
+                                        opacity:1;
+                                    }
+                                }
                             }           
                         }
                     }
@@ -1066,6 +1114,18 @@
                                 -webkit-background-clip: text;
                                 background-clip: text;
                                 color: transparent;
+                                animation: fadein 3s;
+                                -moz-animation: fadein 3s; /* Firefox */
+                                -webkit-animation: fadein 3s; /* Safari et Chrome */
+                                -o-animation: fadein 3s; /* Opera */
+                                @keyframes fadein {
+                                    from {
+                                        opacity:0.5;
+                                    }
+                                    to {
+                                        opacity:1;
+                                    }
+                                }
                             }           
                         }
                     }
