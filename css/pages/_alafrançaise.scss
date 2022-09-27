@@ -1,0 +1,190 @@
+.photo-menu img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 375px){
+
+    .photo-menu{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top:100px ;
+        overflow: hidden;
+        height: 257px;
+       
+        & img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+
+        & i{margin-right: 50px;
+            text-align: left;
+        }
+       
+    }
+
+
+   .menus{
+        background-color: #F6F6F6;
+        padding-top: 39px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 43px;
+        margin-top: -47px;
+        z-index: 7;    
+        border-radius: 42px 42px 0px 0px;
+
+
+        h2{
+            font-family: $font-secondary;
+            font-size: 25px;
+            color: $colour-title;
+             
+              & i{
+                float: right;
+            
+              }
+        }
+
+
+
+
+        h3{
+            font-family: $font-primary;
+            font-weight: $font-regular;
+            font-size: 18px;
+            color: $colour-title;
+            text-transform: uppercase;
+            margin-bottom: 9px;
+        }
+
+
+
+        hr{
+            margin-bottom: 14px;
+            border: 2px solid $colour-badge;
+            width: 40px;
+        }
+
+
+      
+        article{
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            display: flex;
+            margin-bottom: 43px;
+
+            & button{
+                margin-left: 57px;
+                margin-right: 57px;
+
+
+                margin-top: 49px;
+
+
+            }
+        }
+ 
+
+        .card{
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            border: 0px solid white;
+            border-radius: 17px;
+            box-shadow: $box-shadow;
+            background-color: white;
+            width: 100%;
+            height: 69px;
+            margin-bottom: 18px;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+
+
+           & .card-validation{
+  
+                width: 0px;
+                overflow: hidden;
+                cursor: pointer;
+                transition: all 0.5s;
+                background-color: $colour-badge;
+                border-radius: 0px 17px 17px 0px;
+
+                & i {
+                    cursor:pointer;
+                    color: $colour-badge;
+                    background-color: $colour-primary;
+                    border-radius: 50%;
+                    padding: 7px;
+            
+                    &:hover{
+                        -webkit-animation: myrotate 1.5s linear;
+                        animation: myrotate 1.5s  linear;
+                    }
+
+
+                    @keyframes myrotate {
+                        0% {
+                          transform: rotate(0deg);
+                        }
+                       100% {
+                          transform: rotate(90deg);
+                       }
+                   }
+                }
+               
+            }
+
+
+           &:hover .card-validation{
+                padding: 25px;
+                width:auto;
+                background-color: $colour-badge;
+                
+            }
+
+
+            &:hover i{
+                -webkit-animation: myrotate 1s linear;
+                animation: myrotate 1s linear;
+
+
+            }
+
+            & .card-content{
+                width: 100%;
+                padding: 15px;
+
+                & h4{
+                  margin-bottom: 7px;
+                }
+
+                & .price{
+                  float: right;
+                }
+            }
+        
+        }
+
+
+        
+
+
+
+    }
+    
+
+
+
+
+
+
+
+
+}
