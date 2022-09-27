@@ -22,8 +22,6 @@
 .menus{
     background-color: #F6F6F6;
     padding-top: 100px;
-    padding-left: 344px;
-    padding-right: 344px;
     padding-bottom: 43px;
     border-radius: 0px;
     h2{
@@ -44,6 +42,18 @@
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
+                animation: fadein 3s;
+                -moz-animation: fadein 3s; /* Firefox */
+                -webkit-animation: fadein 3s; /* Safari et Chrome */
+                -o-animation: fadein 3s; /* Opera */
+                @keyframes fadein {
+                    from {
+                        opacity:0.5;
+                    }
+                    to {
+                        opacity:1;
+                    }
+                }
             }          
         }
     }
@@ -88,7 +98,7 @@
         display: -webkit-flex;
         display: flex;
         position: relative;
-        animation: fadein 4s;       
+        animation: fadein 3s;       
         @keyframes fadein {
             from {
                 opacity:0;
@@ -103,6 +113,7 @@
             width: 0%;
             overflow: hidden;
             cursor: pointer;
+            padding-top: 23px;
             transition: all 0.5s;
             background-color: $colour-badge;
             border-radius: 0px 17px 17px 0px;
@@ -112,21 +123,44 @@
                 background-color: $colour-primary;
                 border-radius: 50%;
                 padding: 7px;
-        
+                position: relative;       
                 &:hover{
-                    -webkit-animation: myrotate 1s linear;
-                    animation: myrotate 1s  linear;
+                    -webkit-animation-name: check;
+                    animation-name: check;
+                    -webkit-animation-duration: 0.5s;
+                    animation-duration: 0.5s;
+                    -webkit-animation-timing-function: linear;
+                    animation-timing-function: linear;   
+                    -webkit-animation-iteration-count: 1;
+                    animation-iteration-count: 1;
+                    -webkit-animation-direction: alternate;
+                    animation-direction: alternate;
                 }
-                @keyframes myrotate {
+                @-webkit-keyframes check {
                     0% {
-                      transform: rotate(0deg);
+                      right: 0;
+                      top: 0;
+                    }                 
+                    100% {
+                        transform: rotate(0deg);
+                      right: -200px;
+                      top: 0;
+                      left: 0px;
                     }
-                   100% {
-                      transform: rotate(90deg);
-                    }
+                }
+                @keyframes check {
+                    0% {
+                        right: 0;
+                        top: 0;
+                    }             
+                      100% {
+                        transform: rotate(365deg);
+                        left: 0px;
+                        right: -200px;
+                        top: 0;
+                    } 
                 }
             }
-           
         }
         &:hover .card-validation{
             padding: 25px;
@@ -134,8 +168,16 @@
             background-color: $colour-badge;
         }
         &:hover i{
-            -webkit-animation: myrotate 1s linear;
-            animation: myrotate 1s linear;
+            -webkit-animation-name: check;
+            animation-name: check;
+            -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;   
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;      
         }
         &:hover .card-content{
             width: 100%;
@@ -256,6 +298,18 @@
                     -webkit-background-clip: text;
                     background-clip: text;
                     color: transparent;
+                    animation: fadein 3s;
+                    -moz-animation: fadein 3s; /* Firefox */
+                    -webkit-animation: fadein 3s; /* Safari et Chrome */
+                    -o-animation: fadein 3s; /* Opera */
+                    @keyframes fadein {
+                        from {
+                            opacity:0.5;
+                        }
+                        to {
+                            opacity:1;
+                        }
+                    }
                 }        
             }
         }
@@ -301,7 +355,7 @@
             display: -webkit-flex;
             display: flex;
             position: relative;
-            animation: fadein 4s;       
+            animation: fadein 3s;       
             @keyframes fadein {
                 from {
                     opacity:0;
@@ -328,16 +382,40 @@
                     margin-top: 13px;
                     padding: 7px;
                     &:hover{
-                        -webkit-animation: myrotate 1s linear;
-                        animation: myrotate 1s  linear;
+                        -webkit-animation-name: check;
+                        animation-name: check;
+                        -webkit-animation-duration: 0.5s;
+                        animation-duration: 0.5s;
+                        -webkit-animation-timing-function: linear;
+                        animation-timing-function: linear;   
+                        -webkit-animation-iteration-count: 1;
+                        animation-iteration-count: 1;
+                        -webkit-animation-direction: alternate;
+                        animation-direction: alternate;  
                     }
-                    @keyframes myrotate {
+                    @-webkit-keyframes check {
                         0% {
-                            transform: rotate(0deg);
-                        }
+                          right: 0;
+                          top: 0;
+                        }                 
                         100% {
-                            transform: rotate(90deg);
+                            transform: rotate(0deg);
+                          right: -200px;
+                          top: 0;
+                          left: 0px;
                         }
+                    }
+                    @keyframes check {
+                        0% {
+                            right: 0;
+                            top: 0;
+                        }             
+                          100% {
+                            transform: rotate(365deg);
+                            left: 0px;
+                            right: -200px;
+                            top: 0;
+                        } 
                     }
                 }    
                 & .icon-no-overflow{
@@ -353,8 +431,16 @@
                 background-color: $colour-badge; 
             }
             &:hover i{
-                -webkit-animation: myrotate 1s linear;
-                animation: myrotate 1s linear;
+                -webkit-animation-name: check;
+                animation-name: check;
+                -webkit-animation-duration: 0.5s;
+                animation-duration: 0.5s;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;   
+                -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1;
+                -webkit-animation-direction: alternate;
+                animation-direction: alternate;  
             }
             &:hover .card-content{
                 width: 102px;
@@ -508,6 +594,18 @@
                     background-clip: text;
                     color: transparent;
                     padding-top: 5px;
+                    animation: fadein 3s;
+                    -moz-animation: fadein 3s; /* Firefox */
+                    -webkit-animation: fadein 3s; /* Safari et Chrome */
+                    -o-animation: fadein 3s; /* Opera */
+                    @keyframes fadein {
+                        from {
+                            opacity:0.5;
+                        }
+                        to {
+                            opacity:1;
+                        }
+                    }
                 }
             }
         }
@@ -553,7 +651,7 @@
             display: -webkit-flex;
             display: flex;
             position: relative;
-            animation: fadein 4s;       
+            animation: fadein 3s;       
             @keyframes fadein {
                 from {
                     opacity:0;
@@ -580,16 +678,40 @@
                     margin-top: 8px;
                     padding: 7px;
                     &:hover{
-                        -webkit-animation: myrotate 1s linear;
-                        animation: myrotate 1s  linear;
+                        -webkit-animation-name: check;
+                        animation-name: check;
+                        -webkit-animation-duration: 0.5s;
+                        animation-duration: 0.5s;
+                        -webkit-animation-timing-function: linear;
+                        animation-timing-function: linear;   
+                        -webkit-animation-iteration-count: 1;
+                        animation-iteration-count: 1;
+                        -webkit-animation-direction: alternate;
+                        animation-direction: alternate;  
                     }
-                    @keyframes myrotate {
+                    @-webkit-keyframes check {
                         0% {
-                            transform: rotate(0deg);
-                        }
+                          right: 0;
+                          top: 0;
+                        }                 
                         100% {
-                            transform: rotate(90deg);
+                            transform: rotate(0deg);
+                          right: -200px;
+                          top: 0;
+                          left: 0px;
                         }
+                    }
+                    @keyframes check {
+                        0% {
+                            right: 0;
+                            top: 0;
+                        }             
+                          100% {
+                            transform: rotate(365deg);
+                            left: 0px;
+                            right: -200px;
+                            top: 0;
+                        } 
                     }
                 }  
                 & .icon-no-overflow{
@@ -605,8 +727,16 @@
                 background-color: $colour-badge; 
             }
             &:hover i{
-                -webkit-animation: myrotate 1s linear;
-                animation: myrotate 1s linear;
+                -webkit-animation-name: check;
+                animation-name: check;
+                -webkit-animation-duration: 0.5s;
+                animation-duration: 0.5s;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;   
+                -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1;
+                -webkit-animation-direction: alternate;
+                animation-direction: alternate;
             }
             &:hover .card-content{
                 width: 300px;
@@ -758,6 +888,18 @@
                     -webkit-background-clip: text;
                     background-clip: text;
                     color: transparent;
+                    animation: fadein 3s;
+                    -moz-animation: fadein 3s; /* Firefox */
+                    -webkit-animation: fadein 3s; /* Safari et Chrome */
+                    -o-animation: fadein 3s; /* Opera */
+                    @keyframes fadein {
+                        from {
+                            opacity:0.5;
+                        }
+                        to {
+                            opacity:1;
+                        }
+                    }
                 }
             }
         }
@@ -803,7 +945,7 @@
             display: -webkit-flex;
             display: flex;
             position: relative;
-            animation: fadein 4s;       
+            animation: fadein 3s;       
             @keyframes fadein {
                 from {
                     opacity:0;
@@ -829,16 +971,40 @@
                     border-radius: 50%;
                     padding: 6px;
                     &:hover{
-                        -webkit-animation: myrotate 1s linear;
-                        animation: myrotate 1s  linear;
+                        -webkit-animation-name: check;
+                        animation-name: check;
+                        -webkit-animation-duration: 0.5s;
+                        animation-duration: 0.5s;
+                        -webkit-animation-timing-function: linear;
+                        animation-timing-function: linear;   
+                        -webkit-animation-iteration-count: 1;
+                        animation-iteration-count: 1;
+                        -webkit-animation-direction: alternate;
+                        animation-direction: alternate;
                     }
-                    @keyframes myrotate {
+                    @-webkit-keyframes check {
                         0% {
-                            transform: rotate(0deg);
-                        }
+                          right: 0;
+                          top: 0;
+                        }                 
                         100% {
-                            transform: rotate(90deg);
+                            transform: rotate(0deg);
+                          right: -200px;
+                          top: 0;
+                          left: 0px;
                         }
+                    }
+                    @keyframes check {
+                        0% {
+                            right: 0;
+                            top: 0;
+                        }             
+                          100% {
+                            transform: rotate(365deg);
+                            left: 0px;
+                            right: -200px;
+                            top: 0;
+                        } 
                     }
                 } 
                 & .icon-no-overflow{
@@ -856,8 +1022,16 @@
                 background-color: $colour-badge; 
             }
             &:hover i{
-                -webkit-animation: myrotate 1s linear;
-                animation: myrotate 1s linear;
+                -webkit-animation-name: check;
+                animation-name: check;
+                -webkit-animation-duration: 0.5s;
+                animation-duration: 0.5s;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;   
+                -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1;
+                -webkit-animation-direction: alternate;
+                animation-direction: alternate;
             }
             &:hover .card-content{
                 width: 281px;
@@ -1009,6 +1183,18 @@
                     -webkit-background-clip: text;
                     background-clip: text;
                     color: transparent;
+                    animation: fadein 3s;
+                    -moz-animation: fadein 3s; /* Firefox */
+                    -webkit-animation: fadein 3s; /* Safari et Chrome */
+                    -o-animation: fadein 3s; /* Opera */
+                    @keyframes fadein {
+                        from {
+                            opacity:0.5;
+                        }
+                        to {
+                            opacity:1;
+                        }
+                    }
                 }
             }
         }
@@ -1054,7 +1240,7 @@
             display: -webkit-flex;
             display: flex;
             position: relative;
-            animation: fadein 4s;       
+            animation: fadein 3s;       
             @keyframes fadein {
                 from {
                     opacity:0;
@@ -1080,16 +1266,40 @@
                     border-radius: 50%;
                     padding: 7px;
                     &:hover{
-                        -webkit-animation: myrotate 1s linear;
-                        animation: myrotate 1s  linear;
+                        -webkit-animation-name: check;
+                        animation-name: check;
+                        -webkit-animation-duration: 0.5s;
+                        animation-duration: 0.5s;
+                        -webkit-animation-timing-function: linear;
+                        animation-timing-function: linear;   
+                        -webkit-animation-iteration-count: 1;
+                        animation-iteration-count: 1;
+                        -webkit-animation-direction: alternate;
+                        animation-direction: alternate;
                     }
-                    @keyframes myrotate {
+                    @-webkit-keyframes check {
                         0% {
-                            transform: rotate(0deg);
-                        }
+                          right: 0;
+                          top: 0;
+                        }                 
                         100% {
-                            transform: rotate(90deg);
+                            transform: rotate(0deg);
+                          right: -200px;
+                          top: 0;
+                          left: 0px;
                         }
+                    }
+                    @keyframes check {
+                        0% {
+                            right: 0;
+                            top: 0;
+                        }             
+                          100% {
+                            transform: rotate(365deg);
+                            left: 0px;
+                            right: -200px;
+                            top: 0;
+                        } 
                     }
                 } 
                 & .icon-no-overflow{
@@ -1104,8 +1314,16 @@
                  background-color: $colour-badge; 
             }
             &:hover i{
-                -webkit-animation: myrotate 1s linear;
-                animation: myrotate 1s linear;
+                -webkit-animation-name: check;
+                animation-name: check;
+                -webkit-animation-duration: 0.5s;
+                animation-duration: 0.5s;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;   
+                -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1;
+                -webkit-animation-direction: alternate;
+                animation-direction: alternate;
             }
             &:hover .card-content{
                 width: 208px;

@@ -11,7 +11,7 @@
 
 html, body {
   height: 100%;
-  width: 1920px;
+  width: 100%;
   margin: auto;
   padding: 0;
 }
@@ -560,8 +560,8 @@ header .logo-ohmyfood i {
 /*------------------------------------------- Sections ----------------------------------------*/
 section {
   margin: auto;
-  padding-left: 344px;
-  padding-right: 344px;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 
 /*-------------------------------- Responsive - layout Tablette 768px ---------------------------*/
@@ -969,16 +969,16 @@ footer p {
   border-radius: 26px;
   background: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  width: 606px;
+  width: 100%;
   height: 211px;
   margin-right: 34px;
   display: flex;
 }
 .restaurants article .card .card-header {
   overflow: hidden;
-  width: 309px;
+  width: 268px;
   height: 211px;
-  margin-right: 45px;
+  margin-right: 40px;
 }
 .restaurants article .card .card-header .badge {
   position: absolute;
@@ -1027,6 +1027,26 @@ footer p {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari et Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*------------------------- Responsive layout - Tablette 768px --------------------------------*/
@@ -1224,6 +1244,26 @@ footer p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 /*------------------------ Responsive layout - Mobile L - 425px -----------------------------*/
@@ -1429,6 +1469,26 @@ footer p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 /*---------------------- Responsive layout - Mobile M - 375px -------------------------------*/
@@ -1631,6 +1691,26 @@ footer p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 /*---------------------- Responsive layout - Mobile S - 320px --------------------------------*/
@@ -1837,6 +1917,26 @@ footer p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 /* -------------------------------- Section photo du menu -------------------------------*/
@@ -1865,8 +1965,6 @@ footer p {
 .menus {
   background-color: #F6F6F6;
   padding-top: 100px;
-  padding-left: 344px;
-  padding-right: 344px;
   padding-bottom: 43px;
   border-radius: 0px;
 }
@@ -1889,6 +1987,18 @@ footer p {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari et Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .menus h3 {
   font-family: "Roboto", sans-serif;
@@ -1927,18 +2037,8 @@ footer p {
   margin-bottom: 18px;
   display: flex;
   position: relative;
-  -webkit-animation: fadein 4s;
-          animation: fadein 4s;
-}
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-    top: 0px;
-  }
-  to {
-    opacity: 1;
-    top: 10px;
-  }
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
 }
 @keyframes fadein {
   from {
@@ -1954,6 +2054,7 @@ footer p {
   width: 0%;
   overflow: hidden;
   cursor: pointer;
+  padding-top: 23px;
   transition: all 0.5s;
   background-color: #99E2D0;
   border-radius: 0px 17px 17px 0px;
@@ -1964,25 +2065,42 @@ footer p {
   background-color: white;
   border-radius: 50%;
   padding: 7px;
+  position: relative;
 }
 .menus .card .card-validation i:hover {
-  -webkit-animation: myrotate 1s linear;
-  animation: myrotate 1s linear;
+  -webkit-animation-name: check;
+  animation-name: check;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
-@-webkit-keyframes myrotate {
+@-webkit-keyframes check {
   0% {
-    transform: rotate(0deg);
+    right: 0;
+    top: 0;
   }
   100% {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
+    right: -200px;
+    top: 0;
+    left: 0px;
   }
 }
-@keyframes myrotate {
+@keyframes check {
   0% {
-    transform: rotate(0deg);
+    right: 0;
+    top: 0;
   }
   100% {
-    transform: rotate(90deg);
+    transform: rotate(365deg);
+    left: 0px;
+    right: -200px;
+    top: 0;
   }
 }
 .menus .card:hover .card-validation {
@@ -1991,8 +2109,16 @@ footer p {
   background-color: #99E2D0;
 }
 .menus .card:hover i {
-  -webkit-animation: myrotate 1s linear;
-  animation: myrotate 1s linear;
+  -webkit-animation-name: check;
+  animation-name: check;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 .menus .card:hover .card-content {
   width: 100%;
@@ -2106,6 +2232,26 @@ footer p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
   }
   .menus h3 {
     font-family: "Roboto", sans-serif;
@@ -2145,18 +2291,8 @@ footer p {
     margin-bottom: 27px;
     display: flex;
     position: relative;
-    -webkit-animation: fadein 4s;
-            animation: fadein 4s;
-  }
-  @-webkit-keyframes fadein {
-    from {
-      opacity: 0;
-      top: 0px;
-    }
-    to {
-      opacity: 1;
-      top: 10px;
-    }
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
   }
   @keyframes fadein {
     from {
@@ -2186,23 +2322,39 @@ footer p {
     padding: 7px;
   }
   .menus .card .card-validation i:hover {
-    -webkit-animation: myrotate 1s linear;
-    animation: myrotate 1s linear;
+    -webkit-animation-name: check;
+    animation-name: check;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
-  @-webkit-keyframes myrotate {
+  @-webkit-keyframes check {
     0% {
-      transform: rotate(0deg);
+      right: 0;
+      top: 0;
     }
     100% {
-      transform: rotate(90deg);
+      transform: rotate(0deg);
+      right: -200px;
+      top: 0;
+      left: 0px;
     }
   }
-  @keyframes myrotate {
+  @keyframes check {
     0% {
-      transform: rotate(0deg);
+      right: 0;
+      top: 0;
     }
     100% {
-      transform: rotate(90deg);
+      transform: rotate(365deg);
+      left: 0px;
+      right: -200px;
+      top: 0;
     }
   }
   .menus .card .card-validation .icon-no-overflow {
@@ -2217,8 +2369,16 @@ footer p {
     background-color: #99E2D0;
   }
   .menus .card:hover i {
-    -webkit-animation: myrotate 1s linear;
-    animation: myrotate 1s linear;
+    -webkit-animation-name: check;
+    animation-name: check;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
   .menus .card:hover .card-content {
     width: 102px;
@@ -2364,6 +2524,26 @@ footer p {
     background-clip: text;
     color: transparent;
     padding-top: 5px;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
   }
   .menus h3 {
     font-family: "Roboto", sans-serif;
@@ -2403,18 +2583,8 @@ footer p {
     margin-bottom: 18px;
     display: flex;
     position: relative;
-    -webkit-animation: fadein 4s;
-            animation: fadein 4s;
-  }
-  @-webkit-keyframes fadein {
-    from {
-      opacity: 0;
-      top: 0px;
-    }
-    to {
-      opacity: 1;
-      top: 10px;
-    }
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
   }
   @keyframes fadein {
     from {
@@ -2444,23 +2614,39 @@ footer p {
     padding: 7px;
   }
   .menus .card .card-validation i:hover {
-    -webkit-animation: myrotate 1s linear;
-    animation: myrotate 1s linear;
+    -webkit-animation-name: check;
+    animation-name: check;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
-  @-webkit-keyframes myrotate {
+  @-webkit-keyframes check {
     0% {
-      transform: rotate(0deg);
+      right: 0;
+      top: 0;
     }
     100% {
-      transform: rotate(90deg);
+      transform: rotate(0deg);
+      right: -200px;
+      top: 0;
+      left: 0px;
     }
   }
-  @keyframes myrotate {
+  @keyframes check {
     0% {
-      transform: rotate(0deg);
+      right: 0;
+      top: 0;
     }
     100% {
-      transform: rotate(90deg);
+      transform: rotate(365deg);
+      left: 0px;
+      right: -200px;
+      top: 0;
     }
   }
   .menus .card .card-validation .icon-no-overflow {
@@ -2475,8 +2661,16 @@ footer p {
     background-color: #99E2D0;
   }
   .menus .card:hover i {
-    -webkit-animation: myrotate 1s linear;
-    animation: myrotate 1s linear;
+    -webkit-animation-name: check;
+    animation-name: check;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
   .menus .card:hover .card-content {
     width: 300px;
@@ -2620,6 +2814,26 @@ footer p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
   }
   .menus h3 {
     font-family: "Roboto", sans-serif;
@@ -2659,18 +2873,8 @@ footer p {
     margin-bottom: 18px;
     display: flex;
     position: relative;
-    -webkit-animation: fadein 4s;
-            animation: fadein 4s;
-  }
-  @-webkit-keyframes fadein {
-    from {
-      opacity: 0;
-      top: 0px;
-    }
-    to {
-      opacity: 1;
-      top: 10px;
-    }
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
   }
   @keyframes fadein {
     from {
@@ -2699,23 +2903,39 @@ footer p {
     padding: 6px;
   }
   .menus .card .card-validation i:hover {
-    -webkit-animation: myrotate 1s linear;
-    animation: myrotate 1s linear;
+    -webkit-animation-name: check;
+    animation-name: check;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
-  @-webkit-keyframes myrotate {
+  @-webkit-keyframes check {
     0% {
-      transform: rotate(0deg);
+      right: 0;
+      top: 0;
     }
     100% {
-      transform: rotate(90deg);
+      transform: rotate(0deg);
+      right: -200px;
+      top: 0;
+      left: 0px;
     }
   }
-  @keyframes myrotate {
+  @keyframes check {
     0% {
-      transform: rotate(0deg);
+      right: 0;
+      top: 0;
     }
     100% {
-      transform: rotate(90deg);
+      transform: rotate(365deg);
+      left: 0px;
+      right: -200px;
+      top: 0;
     }
   }
   .menus .card .card-validation .icon-no-overflow {
@@ -2732,8 +2952,16 @@ footer p {
     background-color: #99E2D0;
   }
   .menus .card:hover i {
-    -webkit-animation: myrotate 1s linear;
-    animation: myrotate 1s linear;
+    -webkit-animation-name: check;
+    animation-name: check;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
   .menus .card:hover .card-content {
     width: 281px;
@@ -2877,6 +3105,26 @@ footer p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+  }
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
   }
   .menus h3 {
     font-family: "Roboto", sans-serif;
@@ -2916,18 +3164,8 @@ footer p {
     margin-bottom: 18px;
     display: flex;
     position: relative;
-    -webkit-animation: fadein 4s;
-            animation: fadein 4s;
-  }
-  @-webkit-keyframes fadein {
-    from {
-      opacity: 0;
-      top: 0px;
-    }
-    to {
-      opacity: 1;
-      top: 10px;
-    }
+    -webkit-animation: fadein 3s;
+            animation: fadein 3s;
   }
   @keyframes fadein {
     from {
@@ -2956,23 +3194,39 @@ footer p {
     padding: 7px;
   }
   .menus .card .card-validation i:hover {
-    -webkit-animation: myrotate 1s linear;
-    animation: myrotate 1s linear;
+    -webkit-animation-name: check;
+    animation-name: check;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
-  @-webkit-keyframes myrotate {
+  @-webkit-keyframes check {
     0% {
-      transform: rotate(0deg);
+      right: 0;
+      top: 0;
     }
     100% {
-      transform: rotate(90deg);
+      transform: rotate(0deg);
+      right: -200px;
+      top: 0;
+      left: 0px;
     }
   }
-  @keyframes myrotate {
+  @keyframes check {
     0% {
-      transform: rotate(0deg);
+      right: 0;
+      top: 0;
     }
     100% {
-      transform: rotate(90deg);
+      transform: rotate(365deg);
+      left: 0px;
+      right: -200px;
+      top: 0;
     }
   }
   .menus .card .card-validation .icon-no-overflow {
@@ -2986,8 +3240,16 @@ footer p {
     background-color: #99E2D0;
   }
   .menus .card:hover i {
-    -webkit-animation: myrotate 1s linear;
-    animation: myrotate 1s linear;
+    -webkit-animation-name: check;
+    animation-name: check;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
   .menus .card:hover .card-content {
     width: 208px;
