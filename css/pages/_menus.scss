@@ -84,6 +84,102 @@
         display: flex;
         margin-bottom: 72px;
     }
+
+
+
+
+    #first {
+        animation: first 0.5s linear;
+        animation-direction: alternate;
+        position: relative;
+        animation-delay: 0.10s;
+        
+      }
+      @keyframes first {
+        from {
+          top: -15px; 
+          fill-opacity: 0;
+          opacity:0;
+
+      
+        }
+        
+        to {
+          top: 1;
+          fill-opacity: 1;
+        opacity:1;
+
+        }
+      }
+      
+      #second {
+        animation: second 0.5s linear;
+        animation-direction: alternate-reverse;
+        animation-delay: 0.20s; 
+        position: relative;}
+        @keyframes second {
+            from {
+              top: -15px; 
+              fill-opacity: 0;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 0;
+            opacity:1;
+
+            }
+          }
+          
+      
+      #third {
+        animation: move 1s linear;
+        animation-direction: alternate-reverse;
+        animation-delay: 0.40s; 
+        position: relative;
+      }
+      @keyframes move {
+        from {
+          top: -15px; 
+          fill-opacity: 0.1;
+          opacity:0;
+
+      
+        }
+        
+        to {
+          top: 0;
+          fill-opacity: 1;
+        opacity:1;
+
+        }
+      }
+
+      #four {
+        animation: move 1.5s linear;
+        animation-direction: alternate-reverse;
+        animation-delay: 0.60s; 
+        position: relative;
+      }
+      @keyframes move {
+        from {
+          top: -15px; 
+          fill-opacity: 0.1;
+          opacity:0;
+
+      
+        }
+        
+        to {
+          top: 0;
+          fill-opacity: 1;
+        opacity:1;
+
+        }
+      }
     .card{
         -webkit-flex: 1;
         -ms-flex: 1;
@@ -98,17 +194,6 @@
         display: -webkit-flex;
         display: flex;
         position: relative;
-        animation: fadein 3s;       
-        @keyframes fadein {
-            from {
-                opacity:0;
-                top: 0px;
-            }
-            to {
-                opacity:1;
-                top: 10px;
-            }
-        }
         & .card-validation{
             width: 0%;
             overflow: hidden;
@@ -341,6 +426,102 @@
             display: flex;
             margin-bottom: 88px; 
         }
+        #first {
+            animation: first 0.5s linear;
+            animation-direction: alternate;
+            position: relative;
+            animation-delay: 0.10s;
+            
+          }
+          @keyframes first {
+            from {
+              top: -15px; 
+              fill-opacity: 0;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 1;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+          
+          #second {
+            animation: second 0.5s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.20s; 
+            position: relative;}
+            @keyframes second {
+                from {
+                  top: -15px; 
+                  fill-opacity: 0;
+                  opacity:0;
+    
+              
+                }
+                
+                to {
+                  top: 0;
+                  fill-opacity: 0;
+                opacity:1;
+    
+                }
+              }
+              
+          
+          #third {
+            animation: move 1s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.40s; 
+            position: relative;
+          }
+          @keyframes move {
+            from {
+              top: -15px; 
+              fill-opacity: 0.1;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+
+          #four {
+            animation: move 1.5s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.60s; 
+            position: relative;
+          }
+          @keyframes move {
+            from {
+              top: -15px; 
+              fill-opacity: 0.1;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+
+
+
+          
         .card{
             -webkit-flex: 1;
             -ms-flex: 1;
@@ -355,17 +536,6 @@
             display: -webkit-flex;
             display: flex;
             position: relative;
-            animation: fadein 3s;       
-            @keyframes fadein {
-                from {
-                    opacity:0;
-                    top: 0px;
-                }
-                to {
-                    opacity:1;
-                    top: 10px;
-                }
-            }
             & .card-validation{
                 width: 0%;
                 overflow: hidden;
@@ -636,7 +806,113 @@
             flex-direction: column;
             display: flex;
             margin-bottom: 43px;
+        
         }
+
+        #first {
+            animation: first 0.5s linear;
+            animation-direction: alternate;
+            position: relative;
+            animation-delay: 0.10s;
+            
+          }
+          @keyframes first {
+            from {
+              top: -15px; 
+              fill-opacity: 0;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 1;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+          
+          #second {
+            animation: second 0.5s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.20s; 
+            position: relative;}
+            @keyframes second {
+                from {
+                  top: -15px; 
+                  fill-opacity: 0;
+                  opacity:0;
+    
+              
+                }
+                
+                to {
+                  top: 0;
+                  fill-opacity: 0;
+                opacity:1;
+    
+                }
+              }
+              
+          
+          #third {
+            animation: move 1s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.40s; 
+            position: relative;
+          }
+          @keyframes move {
+            from {
+              top: -15px; 
+              fill-opacity: 0.1;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+
+          #four {
+            animation: move 1.5s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.60s; 
+            position: relative;
+          }
+          @keyframes move {
+            from {
+              top: -15px; 
+              fill-opacity: 0.1;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+
+
+
+
+
+
+
+
+
+
+
+
         .card{
             -webkit-flex: 1;
             -ms-flex: 1;
@@ -651,17 +927,6 @@
             display: -webkit-flex;
             display: flex;
             position: relative;
-            animation: fadein 3s;       
-            @keyframes fadein {
-                from {
-                    opacity:0;
-                    top: 0px;
-                }
-                to {
-                    opacity:1;
-                    top: 10px;
-                }
-            }
             & .card-validation{
                 width: 0%;
                 overflow: hidden;
@@ -931,6 +1196,101 @@
             display: flex;
             margin-bottom: 43px;
         }
+
+        #first {
+            animation: first 0.5s linear;
+            animation-direction: alternate;
+            position: relative;
+            animation-delay: 0.10s;
+            
+          }
+          @keyframes first {
+            from {
+              top: -15px; 
+              fill-opacity: 0;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 1;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+          
+          #second {
+            animation: second 0.5s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.20s; 
+            position: relative;}
+            @keyframes second {
+                from {
+                  top: -15px; 
+                  fill-opacity: 0;
+                  opacity:0;
+    
+              
+                }
+                
+                to {
+                  top: 0;
+                  fill-opacity: 0;
+                opacity:1;
+    
+                }
+              }
+              
+          
+          #third {
+            animation: move 1s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.40s; 
+            position: relative;
+          }
+          @keyframes move {
+            from {
+              top: -15px; 
+              fill-opacity: 0.1;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+
+          #four {
+            animation: move 1.5s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.60s; 
+            position: relative;
+          }
+          @keyframes move {
+            from {
+              top: -15px; 
+              fill-opacity: 0.1;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+
+
         .card{
             -webkit-flex: 1;
             -ms-flex: 1;
@@ -945,17 +1305,6 @@
             display: -webkit-flex;
             display: flex;
             position: relative;
-            animation: fadein 3s;       
-            @keyframes fadein {
-                from {
-                    opacity:0;
-                    top: 0px;
-                }
-                to {
-                    opacity:1;
-                    top: 10px;
-                }
-            }
             & .card-validation{
                 width: 0%;
                 overflow: hidden;
@@ -1226,6 +1575,99 @@
             display: flex;
             margin-bottom: 38px;
         }
+
+        #first {
+            animation: first 0.5s linear;
+            animation-direction: alternate;
+            position: relative;
+            animation-delay: 0.10s;
+            
+          }
+          @keyframes first {
+            from {
+              top: -15px; 
+              fill-opacity: 0;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 1;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+          
+          #second {
+            animation: second 0.5s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.20s; 
+            position: relative;}
+            @keyframes second {
+                from {
+                  top: -15px; 
+                  fill-opacity: 0;
+                  opacity:0;
+    
+              
+                }
+                
+                to {
+                  top: 0;
+                  fill-opacity: 0;
+                opacity:1;
+    
+                }
+              }
+              
+          
+          #third {
+            animation: move 1s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.40s; 
+            position: relative;
+          }
+          @keyframes move {
+            from {
+              top: -15px; 
+              fill-opacity: 0.1;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+          }
+
+          #four {
+            animation: move 1.5s linear;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.60s; 
+            position: relative;
+          }
+          @keyframes move {
+            from {
+              top: -15px; 
+              fill-opacity: 0.1;
+              opacity:0;
+
+          
+            }
+            
+            to {
+              top: 0;
+              fill-opacity: 1;
+            opacity:1;
+
+            }
+        }
         .card{
             -webkit-flex: 1;
             -ms-flex: 1;
@@ -1240,17 +1682,6 @@
             display: -webkit-flex;
             display: flex;
             position: relative;
-            animation: fadein 3s;       
-            @keyframes fadein {
-                from {
-                    opacity:0;
-                    top: 0px;
-                }
-                to {
-                    opacity:1;
-                    top: 10px;
-                }
-            }
             & .card-validation{
                 width: 0%;
                 overflow: hidden;

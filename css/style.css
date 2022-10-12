@@ -2026,6 +2026,123 @@ footer p {
   display: flex;
   margin-bottom: 72px;
 }
+.menus #first {
+  -webkit-animation: first 0.5s linear;
+          animation: first 0.5s linear;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  position: relative;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+@-webkit-keyframes first {
+  from {
+    top: -15px;
+    fill-opacity: 0;
+    opacity: 0;
+  }
+  to {
+    top: 1;
+    fill-opacity: 1;
+    opacity: 1;
+  }
+}
+@keyframes first {
+  from {
+    top: -15px;
+    fill-opacity: 0;
+    opacity: 0;
+  }
+  to {
+    top: 1;
+    fill-opacity: 1;
+    opacity: 1;
+  }
+}
+.menus #second {
+  -webkit-animation: second 0.5s linear;
+          animation: second 0.5s linear;
+  animation-direction: alternate-reverse;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  position: relative;
+}
+@-webkit-keyframes second {
+  from {
+    top: -15px;
+    fill-opacity: 0;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    fill-opacity: 0;
+    opacity: 1;
+  }
+}
+@keyframes second {
+  from {
+    top: -15px;
+    fill-opacity: 0;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    fill-opacity: 0;
+    opacity: 1;
+  }
+}
+.menus #third {
+  -webkit-animation: move 1s linear;
+          animation: move 1s linear;
+  animation-direction: alternate-reverse;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  position: relative;
+}
+@-webkit-keyframes move {
+  from {
+    top: -15px;
+    fill-opacity: 0.1;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    fill-opacity: 1;
+    opacity: 1;
+  }
+}
+@keyframes move {
+  from {
+    top: -15px;
+    fill-opacity: 0.1;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    fill-opacity: 1;
+    opacity: 1;
+  }
+}
+.menus #four {
+  -webkit-animation: move 1.5s linear;
+          animation: move 1.5s linear;
+  animation-direction: alternate-reverse;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  position: relative;
+}
+@keyframes move {
+  from {
+    top: -15px;
+    fill-opacity: 0.1;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    fill-opacity: 1;
+    opacity: 1;
+  }
+}
 .menus .card {
   flex: 1;
   border: 0px solid white;
@@ -2037,18 +2154,6 @@ footer p {
   margin-bottom: 18px;
   display: flex;
   position: relative;
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
-}
-@keyframes fadein {
-  from {
-    opacity: 0;
-    top: 0px;
-  }
-  to {
-    opacity: 1;
-    top: 10px;
-  }
 }
 .menus .card .card-validation {
   width: 0%;
@@ -2280,6 +2385,123 @@ footer p {
     display: flex;
     margin-bottom: 88px;
   }
+  .menus #first {
+    -webkit-animation: first 0.5s linear;
+            animation: first 0.5s linear;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    position: relative;
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+  }
+  @-webkit-keyframes first {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 1;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  @keyframes first {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 1;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  .menus #second {
+    -webkit-animation: second 0.5s linear;
+            animation: second 0.5s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    position: relative;
+  }
+  @-webkit-keyframes second {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes second {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 0;
+      opacity: 1;
+    }
+  }
+  .menus #third {
+    -webkit-animation: move 1s linear;
+            animation: move 1s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+    position: relative;
+  }
+  @-webkit-keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  @keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  .menus #four {
+    -webkit-animation: move 1.5s linear;
+            animation: move 1.5s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+    position: relative;
+  }
+  @keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
   .menus .card {
     flex: 1;
     border: 0px solid white;
@@ -2291,18 +2513,6 @@ footer p {
     margin-bottom: 27px;
     display: flex;
     position: relative;
-    -webkit-animation: fadein 3s;
-            animation: fadein 3s;
-  }
-  @keyframes fadein {
-    from {
-      opacity: 0;
-      top: 0px;
-    }
-    to {
-      opacity: 1;
-      top: 10px;
-    }
   }
   .menus .card .card-validation {
     width: 0%;
@@ -2572,6 +2782,123 @@ footer p {
     display: flex;
     margin-bottom: 43px;
   }
+  .menus #first {
+    -webkit-animation: first 0.5s linear;
+            animation: first 0.5s linear;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    position: relative;
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+  }
+  @-webkit-keyframes first {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 1;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  @keyframes first {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 1;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  .menus #second {
+    -webkit-animation: second 0.5s linear;
+            animation: second 0.5s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    position: relative;
+  }
+  @-webkit-keyframes second {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes second {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 0;
+      opacity: 1;
+    }
+  }
+  .menus #third {
+    -webkit-animation: move 1s linear;
+            animation: move 1s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+    position: relative;
+  }
+  @-webkit-keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  @keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  .menus #four {
+    -webkit-animation: move 1.5s linear;
+            animation: move 1.5s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+    position: relative;
+  }
+  @keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
   .menus .card {
     flex: 1;
     border: 0px solid white;
@@ -2583,18 +2910,6 @@ footer p {
     margin-bottom: 18px;
     display: flex;
     position: relative;
-    -webkit-animation: fadein 3s;
-            animation: fadein 3s;
-  }
-  @keyframes fadein {
-    from {
-      opacity: 0;
-      top: 0px;
-    }
-    to {
-      opacity: 1;
-      top: 10px;
-    }
   }
   .menus .card .card-validation {
     width: 0%;
@@ -2862,6 +3177,123 @@ footer p {
     display: flex;
     margin-bottom: 43px;
   }
+  .menus #first {
+    -webkit-animation: first 0.5s linear;
+            animation: first 0.5s linear;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    position: relative;
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+  }
+  @-webkit-keyframes first {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 1;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  @keyframes first {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 1;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  .menus #second {
+    -webkit-animation: second 0.5s linear;
+            animation: second 0.5s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    position: relative;
+  }
+  @-webkit-keyframes second {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes second {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 0;
+      opacity: 1;
+    }
+  }
+  .menus #third {
+    -webkit-animation: move 1s linear;
+            animation: move 1s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+    position: relative;
+  }
+  @-webkit-keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  @keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  .menus #four {
+    -webkit-animation: move 1.5s linear;
+            animation: move 1.5s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+    position: relative;
+  }
+  @keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
   .menus .card {
     flex: 1;
     border: 0px solid white;
@@ -2873,18 +3305,6 @@ footer p {
     margin-bottom: 18px;
     display: flex;
     position: relative;
-    -webkit-animation: fadein 3s;
-            animation: fadein 3s;
-  }
-  @keyframes fadein {
-    from {
-      opacity: 0;
-      top: 0px;
-    }
-    to {
-      opacity: 1;
-      top: 10px;
-    }
   }
   .menus .card .card-validation {
     width: 0%;
@@ -3153,6 +3573,123 @@ footer p {
     display: flex;
     margin-bottom: 38px;
   }
+  .menus #first {
+    -webkit-animation: first 0.5s linear;
+            animation: first 0.5s linear;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    position: relative;
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+  }
+  @-webkit-keyframes first {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 1;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  @keyframes first {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 1;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  .menus #second {
+    -webkit-animation: second 0.5s linear;
+            animation: second 0.5s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    position: relative;
+  }
+  @-webkit-keyframes second {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 0;
+      opacity: 1;
+    }
+  }
+  @keyframes second {
+    from {
+      top: -15px;
+      fill-opacity: 0;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 0;
+      opacity: 1;
+    }
+  }
+  .menus #third {
+    -webkit-animation: move 1s linear;
+            animation: move 1s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+    position: relative;
+  }
+  @-webkit-keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  @keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
+  .menus #four {
+    -webkit-animation: move 1.5s linear;
+            animation: move 1.5s linear;
+    animation-direction: alternate-reverse;
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+    position: relative;
+  }
+  @keyframes move {
+    from {
+      top: -15px;
+      fill-opacity: 0.1;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      fill-opacity: 1;
+      opacity: 1;
+    }
+  }
   .menus .card {
     flex: 1;
     border: 0px solid white;
@@ -3164,18 +3701,6 @@ footer p {
     margin-bottom: 18px;
     display: flex;
     position: relative;
-    -webkit-animation: fadein 3s;
-            animation: fadein 3s;
-  }
-  @keyframes fadein {
-    from {
-      opacity: 0;
-      top: 0px;
-    }
-    to {
-      opacity: 1;
-      top: 10px;
-    }
   }
   .menus .card .card-validation {
     width: 0%;
