@@ -2027,8 +2027,8 @@ footer p {
   margin-bottom: 72px;
 }
 .menus #first {
-  -webkit-animation: first 0.5s linear;
-          animation: first 0.5s linear;
+  -webkit-animation: first 2s linear;
+          animation: first 2s linear;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
   position: relative;
@@ -2060,8 +2060,8 @@ footer p {
   }
 }
 .menus #second {
-  -webkit-animation: second 0.5s linear;
-          animation: second 0.5s linear;
+  -webkit-animation: second 1s linear;
+          animation: second 1s linear;
   animation-direction: alternate-reverse;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
@@ -2092,8 +2092,8 @@ footer p {
   }
 }
 .menus #third {
-  -webkit-animation: move 1s linear;
-          animation: move 1s linear;
+  -webkit-animation: move 1.5s linear;
+          animation: move 1.5s linear;
   animation-direction: alternate-reverse;
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
@@ -2124,8 +2124,8 @@ footer p {
   }
 }
 .menus #four {
-  -webkit-animation: move 1.5s linear;
-          animation: move 1.5s linear;
+  -webkit-animation: move 3s linear;
+          animation: move 3s linear;
   animation-direction: alternate-reverse;
   -webkit-animation-delay: 0.6s;
           animation-delay: 0.6s;
@@ -2386,8 +2386,8 @@ footer p {
     margin-bottom: 88px;
   }
   .menus #first {
-    -webkit-animation: first 0.5s linear;
-            animation: first 0.5s linear;
+    -webkit-animation: first 2s linear;
+            animation: first 2s linear;
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
     position: relative;
@@ -2419,8 +2419,8 @@ footer p {
     }
   }
   .menus #second {
-    -webkit-animation: second 0.5s linear;
-            animation: second 0.5s linear;
+    -webkit-animation: second 1s linear;
+            animation: second 1s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.2s;
             animation-delay: 0.2s;
@@ -2451,8 +2451,8 @@ footer p {
     }
   }
   .menus #third {
-    -webkit-animation: move 1s linear;
-            animation: move 1s linear;
+    -webkit-animation: move 1.5s linear;
+            animation: move 1.5s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
@@ -2483,8 +2483,8 @@ footer p {
     }
   }
   .menus #four {
-    -webkit-animation: move 1.5s linear;
-            animation: move 1.5s linear;
+    -webkit-animation: move 3s linear;
+            animation: move 3s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.6s;
             animation-delay: 0.6s;
@@ -2783,8 +2783,8 @@ footer p {
     margin-bottom: 43px;
   }
   .menus #first {
-    -webkit-animation: first 0.5s linear;
-            animation: first 0.5s linear;
+    -webkit-animation: first 2s linear;
+            animation: first 2s linear;
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
     position: relative;
@@ -2816,8 +2816,8 @@ footer p {
     }
   }
   .menus #second {
-    -webkit-animation: second 0.5s linear;
-            animation: second 0.5s linear;
+    -webkit-animation: second 1s linear;
+            animation: second 1s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.2s;
             animation-delay: 0.2s;
@@ -2848,8 +2848,8 @@ footer p {
     }
   }
   .menus #third {
-    -webkit-animation: move 1s linear;
-            animation: move 1s linear;
+    -webkit-animation: move 1.5s linear;
+            animation: move 1.5s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
@@ -2880,8 +2880,8 @@ footer p {
     }
   }
   .menus #four {
-    -webkit-animation: move 1.5s linear;
-            animation: move 1.5s linear;
+    -webkit-animation: move 3s linear;
+            animation: move 3s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.6s;
             animation-delay: 0.6s;
@@ -3178,8 +3178,8 @@ footer p {
     margin-bottom: 43px;
   }
   .menus #first {
-    -webkit-animation: first 0.5s linear;
-            animation: first 0.5s linear;
+    -webkit-animation: first 2s linear;
+            animation: first 2s linear;
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
     position: relative;
@@ -3211,8 +3211,8 @@ footer p {
     }
   }
   .menus #second {
-    -webkit-animation: second 0.5s linear;
-            animation: second 0.5s linear;
+    -webkit-animation: second 1s linear;
+            animation: second 1s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.2s;
             animation-delay: 0.2s;
@@ -3243,8 +3243,8 @@ footer p {
     }
   }
   .menus #third {
-    -webkit-animation: move 1s linear;
-            animation: move 1s linear;
+    -webkit-animation: move 1.5s linear;
+            animation: move 1.5s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
@@ -3275,8 +3275,8 @@ footer p {
     }
   }
   .menus #four {
-    -webkit-animation: move 1.5s linear;
-            animation: move 1.5s linear;
+    -webkit-animation: move 3s linear;
+            animation: move 3s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.6s;
             animation-delay: 0.6s;
@@ -3574,8 +3574,8 @@ footer p {
     margin-bottom: 38px;
   }
   .menus #first {
-    -webkit-animation: first 0.5s linear;
-            animation: first 0.5s linear;
+    -webkit-animation: first 2s linear;
+            animation: first 2s linear;
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
     position: relative;
@@ -3607,8 +3607,8 @@ footer p {
     }
   }
   .menus #second {
-    -webkit-animation: second 0.5s linear;
-            animation: second 0.5s linear;
+    -webkit-animation: second 1s linear;
+            animation: second 1s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.2s;
             animation-delay: 0.2s;
@@ -3639,8 +3639,8 @@ footer p {
     }
   }
   .menus #third {
-    -webkit-animation: move 1s linear;
-            animation: move 1s linear;
+    -webkit-animation: move 1.5s linear;
+            animation: move 1.5s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
@@ -3671,8 +3671,8 @@ footer p {
     }
   }
   .menus #four {
-    -webkit-animation: move 1.5s linear;
-            animation: move 1.5s linear;
+    -webkit-animation: move 3s linear;
+            animation: move 3s linear;
     animation-direction: alternate-reverse;
     -webkit-animation-delay: 0.6s;
             animation-delay: 0.6s;
