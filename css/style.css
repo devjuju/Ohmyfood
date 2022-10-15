@@ -966,8 +966,7 @@ footer p {
 .restaurants article #first {
   -webkit-animation: first 3s linear;
           animation: first 3s linear;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  animation-direction: alternate-reverse;
   position: relative;
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s;
@@ -1308,8 +1307,7 @@ footer p {
   .restaurants article #first {
     -webkit-animation: first 3s linear;
             animation: first 3s linear;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    animation-direction: alternate-reverse;
     position: relative;
     -webkit-animation-delay: 0.1s;
             animation-delay: 0.1s;
@@ -1656,8 +1654,7 @@ footer p {
   .restaurants article #first {
     -webkit-animation: first 3s linear;
             animation: first 3s linear;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    animation-direction: alternate-reverse;
     position: relative;
     -webkit-animation-delay: 0.1s;
             animation-delay: 0.1s;
@@ -2005,8 +2002,7 @@ footer p {
   .restaurants article #first {
     -webkit-animation: first 3s linear;
             animation: first 3s linear;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    animation-direction: alternate-reverse;
     position: relative;
     -webkit-animation-delay: 0.1s;
             animation-delay: 0.1s;
@@ -2360,8 +2356,7 @@ footer p {
   .restaurants article #first {
     -webkit-animation: first 3s linear;
             animation: first 3s linear;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    animation-direction: alternate-reverse;
     position: relative;
     -webkit-animation-delay: 0.1s;
             animation-delay: 0.1s;
